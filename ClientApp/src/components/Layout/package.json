@@ -1,0 +1,12 @@
+{
+  "main": "Layout.js",
+  "name": "st-layout",
+  "description": "layout component",
+  "version": "0.0.1",
+  "keywords": [
+     "Layout"
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}

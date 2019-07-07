@@ -1,0 +1,41 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+header .navbar-nav li > a {
+    text-transform: capitalize;
+    color: #fff;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+    header .navbar-nav li > a:hover {
+        background-color: #800000;
+        color: #fff !important;
+    }
+
+    header .navbar-nav li > a:focus {
+        background-color: #333;
+        color: #fff !important;
+    }
+
+active > a {
+    background-color: #333;
+    color: #fff !important;
+}
+

@@ -1,0 +1,13 @@
+{
+  "main": "NavMenu.js",
+  "name": "st-nav-menu",
+  "description": "nav menu component",
+  "version": "0.0.1",
+  "keywords": [
+    "list",
+    "menu"
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}

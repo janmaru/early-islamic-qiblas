@@ -1,0 +1,16 @@
+﻿
+.mapboxgl-popup {
+    max-width: 400px;
+    font-family: "Open Sans Semibold", "Arial Unicode MS Bold";
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: "Open Sans Semibold", "Arial Unicode MS Bold";
+} 
+ 
+#map {
+    width: 100%;
+    height: 600px;
+    transition: all 0.3s;
+}

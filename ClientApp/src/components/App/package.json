@@ -1,0 +1,12 @@
+{
+  "main": "App.js",
+  "name": "st-app",
+  "description": "app component",
+  "version": "0.0.1",
+  "keywords": [
+    "app" 
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}

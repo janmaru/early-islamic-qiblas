@@ -1,0 +1,15 @@
+{
+  "main": "MosqueListServer.js",
+  "name": "st-stadium-list-server",
+  "description": "list of stadium paging server side",
+  "version": "0.0.1",
+  "keywords": [
+    "stadium",
+    "list",
+    "paging",
+    "server"
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}

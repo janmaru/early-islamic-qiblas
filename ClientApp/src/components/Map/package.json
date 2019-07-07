@@ -1,0 +1,13 @@
+{
+  "main": "Map.js",
+  "name": "st-map",
+  "description": "stadium mapbox component",
+  "version": "0.0.1",
+  "keywords": [
+    "map",
+    "mapbox"
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}

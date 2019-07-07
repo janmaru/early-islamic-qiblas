@@ -1,0 +1,12 @@
+{
+  "main": "Index.css",
+  "name": "st-css",
+  "description": "css component",
+  "version": "0.0.1",
+  "keywords": [
+    "css" 
+  ],
+  "webkit": {
+    "page-cache": false
+  }
+}
