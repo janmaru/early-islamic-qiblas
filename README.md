@@ -14,3 +14,5 @@ Data is stored in  the/Data folder as json file.
 Using:
         "react": "^16.8.6",
         "react-table": "^6.10.0"
+
+![Qiblas](qiblas.PNG)
