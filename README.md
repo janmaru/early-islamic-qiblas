@@ -20,4 +20,4 @@ Using:
         "mapbox-gl": "^2.6.1" 
 
 ![Qiblas](qiblas2.png)
-![Qiblas](qiblas.png)
+![Qiblas](qiblas.PNG)
