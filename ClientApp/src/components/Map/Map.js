@@ -27,7 +27,7 @@ export class Map extends Component {
 
         const map = new MapboxGl.Map({
             container: this.container,
-            style: 'mapbox://styles/janmaru/cjxkyqpaf07521dlm7ci8d0lh',
+            style: 'mapbox://styles/janmaru/cjwy1o6ft3wlj1cn30b02hgg4',
             center: [lng, lat],
             zoom,
             minZoom

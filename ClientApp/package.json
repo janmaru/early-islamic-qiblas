@@ -7,7 +7,7 @@
     "dotenv": "^8.0.0",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
-    "mapbox-gl": "^1.0.0",
+    "mapbox-gl": "^2.6.1",
     "namor": "^1.1.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

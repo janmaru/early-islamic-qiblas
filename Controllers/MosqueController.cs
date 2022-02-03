@@ -75,7 +75,7 @@ namespace EarlyIslamicQiblas.Controllers
 
             rows = rows.Skip(page * pageSize).Take(pageSize);
 
-            return Ok(new { rows = rows, pages = pages });
+            return Ok(new { rows, pages });
         }
 
 
