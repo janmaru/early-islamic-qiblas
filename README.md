@@ -19,5 +19,5 @@ Using:
         "react-table": "^6.10.0"
         "mapbox-gl": "^2.6.1" 
 
-![Qiblas](qiblas2.PNG)
-![Qiblas](qiblas.PNG)
+![Qiblas](qiblas2.png)
+![Qiblas](qiblas.png)
