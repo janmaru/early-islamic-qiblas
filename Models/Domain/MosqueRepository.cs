@@ -1,28 +1,29 @@
-﻿using Newtonsoft.Json;
+﻿using EarlyIslamicQiblas.Models.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
-namespace EarlyIslamicQiblas.Models.Domain
+namespace EarlyIslamicQiblas.Models.Domain;
+
+public class MosqueRepository : IMosqueRepository
 {
-    public class MosqueRepository : IMosqueRepository
+    #region private  
+    private readonly MosqueDbContext _context;
+    #endregion
+
+    public MosqueRepository(MosqueDbContext context)
     {
-        #region private 
- 
-        private string filePath = Path.Combine(Directory.GetCurrentDirectory(),
-               "Data", "mosques");
-        #endregion
-
-        public IEnumerable<Mosque> Get()
-        {
-            return  JsonConvert.DeserializeObject<IEnumerable<Mosque>>(File.ReadAllText(filePath));
-        }
-
-
-        Mosque IMosqueRepository.Get(string name)
-        {
-            return Get().Where(x => x.MosqueName == name).FirstOrDefault();
-        } 
+        this._context = context;
     }
 
+    public async Task<IEnumerable<Mosque>> Get()
+    {
+        return await _context.Mosques.ToListAsync();
+    }
+
+    public async Task<Mosque> Get(string name)
+    {
+        return await _context.Mosques.Where(x => x.MosqueName == name).FirstOrDefaultAsync();
+    }
 }

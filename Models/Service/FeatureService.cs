@@ -1,40 +1,39 @@
-﻿using AutoMapper;
+﻿using EarlyIslamicQiblas.Models.Domain;
+using EarlyIslamicQiblas.Models.Extensions;
 using System.Collections.Generic;
 using System.Linq;
-using EarlyIslamicQiblas.Models.Domain;
-using EarlyIslamicQiblas.Models.Map;
-using EarlyIslamicQiblas.Models.Extension;
+using System.Threading.Tasks;
 
-namespace EarlyIslamicQiblas.Models.Service
+namespace EarlyIslamicQiblas.Models.Service;
+
+public class FeatureService : IFeatureService
 {
-    public class FeatureService : IFeatureService
+    private readonly IMosqueRepository mosqueRepository;
+    public FeatureService(IMosqueRepository mosqueRepository)
     {
-        private readonly IMosqueRepository stadiumRepository;
-        public FeatureService(IMosqueRepository stadiumRepository)
-        {
-            this.stadiumRepository = stadiumRepository;
-        }
-
-        Geo IFeatureService.Get()
-        {
-            return new Geo()
-            {
-                Type = "FeatureCollection",
-                Features = stadiumRepository.Get().Select(x => new Feature()
-                {
-                    Type = "Feature",
-                    Geometry = new Geometry()
-                    {
-                        Type = "Point",
-                        Coordinates = new List<double> { x.Lon, x.Lat }
-                    },
-                    Properties = new Properties()
-                    {
-                        Description = x.PopUp(),
-                        Title = x.MosqueName
-                    }
-                }).ToList()
-            };
-        }
+        this.mosqueRepository = mosqueRepository;
     }
-}
+
+    public async Task<Geo> Get()
+    {
+        var mosques = await mosqueRepository.Get();
+        return new Geo()
+        {
+            Type = "FeatureCollection",
+            Features = mosques.Select(x => new Feature()
+            {
+                Type = "Feature",
+                Geometry = new Geometry()
+                {
+                    Type = "Point",
+                    Coordinates = new List<double> { x.Lon, x.Lat }
+                },
+                Properties = new Properties()
+                {
+                    Description = x.PopUp(),
+                    Title = x.MosqueName
+                }
+            }).ToList()
+        };
+    }
+} 

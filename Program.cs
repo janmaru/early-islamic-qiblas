@@ -14,4 +14,4 @@ namespace EarlyIslamicQiblas
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }
-}
+} 

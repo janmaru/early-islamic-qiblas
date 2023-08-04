@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using EarlyIslamicQiblas.Models.Extension;
-using EarlyIslamicQiblas.Models.Map;
+using EarlyIslamicQiblas.Models.Extensions;
 using EarlyIslamicQiblas.Models.Service;
+using EarlyIslamicQiblas.Models.Domain;
+using System.Threading.Tasks;
 
 namespace EarlyIslamicQiblas.Controllers
 {
@@ -19,25 +20,26 @@ namespace EarlyIslamicQiblas.Controllers
 
         [HttpGet]
         [Route("[action]")] 
-        public Geo List()
+        public async Task<Geo> List()
         {
-            return featureService.Get();
+            return await featureService.Get();
         }
 
         [HttpGet]
         [Route("[action]")]
-        public IEnumerable<double> Centroid()
+        public async Task<IEnumerable<double>> Centroid()
         {
-            var g = featureService.Get().Features.Select(x => x.Geometry.Coordinates);
-            return g.Centroid();
-        }
-
+            var service = await featureService.Get();
+            var geo = service.Features.Select(x => x.Geometry.Coordinates);
+            return geo.Centroid();
+        } 
 
         [HttpGet]
         [Route("[action]")]
-        public IEnumerable<double> Random()
+        public async Task<IEnumerable<double>> Random()
         {
-            return featureService.Get().Features.Select(x => x.Geometry.Coordinates).Random();
+            var service = await featureService.Get();
+            return service.Features.Select(x => x.Geometry.Coordinates).Random();
         }
     }
 }

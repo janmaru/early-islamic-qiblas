@@ -1,9 +1,9 @@
-﻿using EarlyIslamicQiblas.Models.Map;
+﻿using EarlyIslamicQiblas.Models.Domain;
+using System.Threading.Tasks;
 
-namespace EarlyIslamicQiblas.Models.Service
+namespace EarlyIslamicQiblas.Models.Service;
+
+public interface IFeatureService
 {
-    public interface IFeatureService
-    {
-        Geo Get();
-    }
+    Task<Geo> Get();
 }

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace EarlyIslamicQiblas.Models.Domain
+namespace EarlyIslamicQiblas.Models.Domain;
+
+public interface IMosqueRepository
 {
-    public interface IMosqueRepository
-    {
-        IEnumerable<Mosque> Get();
-        Mosque Get(string name);
-    }
+    Task<IEnumerable<Mosque>> Get();
+    Task<Mosque> Get(string name);
 }
