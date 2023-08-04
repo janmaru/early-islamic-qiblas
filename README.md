@@ -1,14 +1,16 @@
 # Instruction!
 Getting started
- -  A Mapbox access token. You can request a new token here: [https://account.mapbox.com/](https://account.mapbox.com/) Add an .env file with REACT_APP_MAPBOX_ACCESS_TOKEN = <your_key> in order to make it fully functional. 
+ -  A Mapbox access token. You can request a new token here: [https://account.mapbox.com/](https://account.mapbox.com/) 
+ -  Add an .env file in the root of ClientApp folder, with REACT_APP_MAPBOX_ACCESS_TOKEN = <your_key> in order to make it fully functional. 
  -  Mapbox GL JS. Mapbox GL JS is a JavaScript library used for building web maps.
  -  A text editor. Use the text editor of your choice for writing HTML, CSS, and JavaScript.
- -  Node.js and npm. To run the commands necessary to run your React app locally, install Node.js and npm.
+ -  Node.js, npm and Yarn. To run the commands necessary to run your React app locally, install Node.js, npm and Yarn
  -  Working familiarity with React.  
  -  Data is stored in the /Data folder as json file.
+ -  Added EF InMemory
 
 
-## .net 6.0.x
+## .net 7.0.x
 
  It's a .net mvc project. There are two controllers dealing with data, one is for the tabular data, the other for the geo markers.
 
