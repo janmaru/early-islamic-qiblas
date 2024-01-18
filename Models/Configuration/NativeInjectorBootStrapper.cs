@@ -37,7 +37,7 @@ public class NativeInjectorBootStrapper
 
         services.AddCors(options =>
         {
-            options.AddPolicy("argoweb", o =>
+            options.AddPolicy("qiblas", o =>
                 o.AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod());
