@@ -34,6 +34,15 @@ public class NativeInjectorBootStrapper
         //get the HTTP context in any class that is managed by the ASP.NET Core dependency injection system
         services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+
+        services.AddCors(options =>
+        {
+            options.AddPolicy("argoweb", o =>
+                o.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod());
+        });
+
         services
             .AddScoped<IMosqueRepository, MosqueRepository>()
             .AddScoped<IFeatureService, FeatureService>()

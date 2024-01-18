@@ -5,6 +5,7 @@ using EarlyIslamicQiblas.Models.Extensions;
 using EarlyIslamicQiblas.Models.Service;
 using EarlyIslamicQiblas.Models.Domain;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 
 namespace EarlyIslamicQiblas.Controllers
 {
@@ -19,6 +20,7 @@ namespace EarlyIslamicQiblas.Controllers
 
 
         [HttpGet]
+        [EnableCors("qiblas")]
         [Route("[action]")] 
         public async Task<Geo> List()
         {
@@ -26,6 +28,7 @@ namespace EarlyIslamicQiblas.Controllers
         }
 
         [HttpGet]
+        [EnableCors("qiblas")]
         [Route("[action]")]
         public async Task<IEnumerable<double>> Centroid()
         {
@@ -35,6 +38,7 @@ namespace EarlyIslamicQiblas.Controllers
         } 
 
         [HttpGet]
+        [EnableCors("qiblas")]
         [Route("[action]")]
         public async Task<IEnumerable<double>> Random()
         {

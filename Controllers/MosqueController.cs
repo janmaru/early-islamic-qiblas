@@ -1,5 +1,6 @@
 ﻿using EarlyIslamicQiblas.Models.Domain;
 using EarlyIslamicQiblas.Models.Extensions;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,7 @@ public class MosqueController : ControllerBase
 
 
     [HttpGet]
+    [EnableCors("qiblas")]
     [Route("[action]")]
     public async Task<IEnumerable<Mosque>> List()
     {
@@ -27,6 +29,7 @@ public class MosqueController : ControllerBase
     }
 
     [HttpGet]
+    [EnableCors("qiblas")]
     [Route("[action]")]
     public async Task<IActionResult> PagedList([FromQuery] int pageSize, [FromQuery] int page, [FromQuery] string sorted, [FromQuery]  string filtered)
     {
@@ -82,6 +85,7 @@ public class MosqueController : ControllerBase
 
 
     [HttpGet("{id}")]
+    [EnableCors("qiblas")]
     public async Task<Mosque> Get(string name)
     {
         return await repoMosque.Get(name);
