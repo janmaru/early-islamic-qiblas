@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting; 
 using System.IO;
+using System.Reflection;
 
 namespace EarlyIslamicQiblas;
 
@@ -40,7 +41,8 @@ public class Startup
         app.UseRouting();
         app.UseHttpsRedirection();
         app.UseStaticFiles();
-        app.UseCookiePolicy(); 
+        app.UseCookiePolicy();
+        app.UseCors("qiblas");
 
         if (env.IsDevelopment()) 
             app.UseDeveloperExceptionPage(); 
