@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 namespace EarlyIslamicQiblas.Controllers;
 
 [Route("api/v1/[controller]")]
+[EnableCors("qiblas")]
 public class MosqueController : ControllerBase
 {
     private readonly IMosqueRepository repoMosque;

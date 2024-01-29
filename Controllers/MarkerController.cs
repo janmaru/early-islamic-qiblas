@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Cors;
 namespace EarlyIslamicQiblas.Controllers
 {
     [Route("api/v1/[controller]")]
+    [EnableCors("qiblas")]
     public class MarkerController : ControllerBase
     {
         private readonly IFeatureService featureService;

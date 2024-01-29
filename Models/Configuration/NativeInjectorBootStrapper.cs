@@ -41,7 +41,7 @@ public class NativeInjectorBootStrapper
                 o.AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod());
-        });
+        }); 
 
         services
             .AddScoped<IMosqueRepository, MosqueRepository>()
