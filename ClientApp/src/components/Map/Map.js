@@ -69,8 +69,8 @@ export class Map extends Component {
         // location of the feature, with description HTML from its properties.
         map.on('click', 'unclustered-point', function (e) {
             var coordinates = e.features[0].geometry.coordinates.slice();
-            var html = e.features[0].properties.description;  
- 
+            var html = e.features[0].properties.description;
+
             while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                 coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
             }
@@ -81,12 +81,12 @@ export class Map extends Component {
                 .addTo(map);
         });
 
- 
+
         map.on('mouseenter', 'markers', function () {
             map.getCanvas().style.cursor = 'pointer';
         });
 
- 
+
         map.on('mouseleave', 'markers', function () {
             map.getCanvas().style.cursor = '';
         });
@@ -95,16 +95,23 @@ export class Map extends Component {
             map.resize();
         })
 
-        fetch('api/v1/marker/list')
+        fetch('api/v1/marker/list',{
+                method: "GET",
+                mode: "cors",
+                cache: "no-cache", 
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
             .then(response => response.json())
             .then(data => this.setState({ stadiums: data }, () => {
                 map.on('load', function () {
-                      map.addSource("mosques", {
-                        type: "geojson", 
+                    map.addSource("mosques", {
+                        type: "geojson",
                         data: data,
                         cluster: true,
-                        clusterMaxZoom: 14, 
-                        clusterRadius: 30  
+                        clusterMaxZoom: 14,
+                        clusterRadius: 30
                     });
 
                     map.addLayer({
@@ -112,7 +119,7 @@ export class Map extends Component {
                         type: "circle",
                         source: "mosques",
                         filter: ["has", "point_count"],
-                        paint: { 
+                        paint: {
                             "circle-color": [
                                 "step",
                                 ["get", "point_count"],
@@ -145,9 +152,9 @@ export class Map extends Component {
                             "text-size": 12
                         }
                     });
- 
+
                     map.addLayer({
-                        'id': "unclustered-point", 
+                        'id': "unclustered-point",
                         'type': "symbol",
                         'source': "mosques",
                         'filter': ["!", ["has", "point_count"]],
@@ -158,7 +165,7 @@ export class Map extends Component {
                             "text-offset": [0, 0.6],
                             "text-anchor": "top",
                             "icon-allow-overlap": false,
-                            "icon-size": 1  
+                            "icon-size": 1
                         },
                         "paint": {
                             "text-color": "#800000",
@@ -166,7 +173,7 @@ export class Map extends Component {
                             "text-halo-width": 2
                         }
                     });
- 
+
                 });
             }));
     }

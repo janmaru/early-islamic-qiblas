@@ -15,7 +15,14 @@ export class MosqueList extends Component {
     }
 
     componentDidMount() {
-        fetch('api/v1/mosque/list')
+        fetch('api/v1/mosque/list', {
+            method: "GET",
+            mode: "cors",
+            cache: "no-cache",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
             .then(response => response.json())
             .then(data => {
                 this.setState({ mosques: data, loading: false });
