@@ -12,14 +12,9 @@ namespace EarlyIslamicQiblas.Controllers;
 
 [Route("api/v1/[controller]")]
 [EnableCors("qiblas")]
-public class MosqueController : ControllerBase
+public class MosqueController(IMosqueRepository repoMosque) : ControllerBase
 {
-    private readonly IMosqueRepository repoMosque;
-    public MosqueController(IMosqueRepository repoMosque)
-    {
-        this.repoMosque = repoMosque;
-    }
-
+    private readonly IMosqueRepository repoMosque = repoMosque;
 
     [HttpGet]
     [EnableCors("qiblas")]

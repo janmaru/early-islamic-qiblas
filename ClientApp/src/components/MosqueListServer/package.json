@@ -1,10 +1,10 @@
 {
   "main": "MosqueListServer.js",
-  "name": "st-stadium-list-server",
-  "description": "list of stadium paging server side",
+  "name": "st-mosque-list-server",
+  "description": "list of mosques paging server side",
   "version": "0.0.1",
   "keywords": [
-    "stadium",
+    "mosque",
     "list",
     "paging",
     "server"

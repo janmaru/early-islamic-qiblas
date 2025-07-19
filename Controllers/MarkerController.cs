@@ -1,24 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
+﻿using EarlyIslamicQiblas.Models.Domain;
 using EarlyIslamicQiblas.Models.Extensions;
 using EarlyIslamicQiblas.Models.Service;
-using EarlyIslamicQiblas.Models.Domain;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EarlyIslamicQiblas.Controllers
 {
     [Route("api/v1/[controller]")]
     [EnableCors("qiblas")]
-    public class MarkerController : ControllerBase
+    public class MarkerController(IFeatureService featureService) : ControllerBase
     {
-        private readonly IFeatureService featureService;
-        public MarkerController(IFeatureService featureService)
-        {
-            this.featureService = featureService;
-        }
-
+        private readonly IFeatureService featureService = featureService;
 
         [HttpGet]
         [EnableCors("qiblas")]
@@ -34,7 +26,7 @@ namespace EarlyIslamicQiblas.Controllers
         public async Task<IEnumerable<double>> Centroid()
         {
             var service = await featureService.Get();
-            var geo = service.Features.Select(x => x.Geometry.Coordinates);
+            var geo = service.Features.Select(x => x.Geometry!.Coordinates);
             return geo.Centroid();
         } 
 

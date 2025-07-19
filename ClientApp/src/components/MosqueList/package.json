@@ -1,11 +1,11 @@
 {
   "main": "MosqueList.js",
-  "name": "st-stadium-list",
-  "description": "stadium list component",
+  "name": "st-mosque-list",
+  "description": "mosques list component",
   "version": "0.0.1",
   "keywords": [
     "list",
-    "stadium"
+    "mosque"
   ],
   "webkit": {
     "page-cache": false
