@@ -1,23 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./assets/css/Index.css"; 
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+ 
+import { createRoot } from 'react-dom/client'; 
 import App from './components/App';
 import registerServiceWorker from './helpers/registerServiceWorker';
+ 
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
 
-const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
-const rootElement = document.getElementById('root');
-
-//require and configure dotenv
-//require('dotenv').config();
-
-
-ReactDOM.render(
-  <BrowserRouter basename={baseUrl}>
-    <App />
-  </BrowserRouter>,
-  rootElement);
-
-registerServiceWorker();
+registerServiceWorker(); 

@@ -1,16 +1,203 @@
-﻿
-.mapboxgl-popup {
-    max-width: 400px;
-    font-family: "Open Sans Semibold", "Arial Unicode MS Bold";
+﻿/* Map.css - Stili aggiornati per Mapbox GL JS v3 */
+
+.map-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.mapboxgl-popup-content {
-    text-align: center;
-    font-family: "Open Sans Semibold", "Arial Unicode MS Bold";
-} 
- 
-#map {
+.map-container {
     width: 100%;
-    height: 600px;
-    transition: all 0.3s;
+    height: 100%;
+}
+
+/* Coordinates display */
+.coordinates-display {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    z-index: 1;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Loading overlay */
+.map-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    backdrop-filter: blur(2px);
+}
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #495057;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading-spinner::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3F5D5F;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Mapbox popup customization */
+.mapboxgl-popup-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    max-width: 300px;
+}
+
+.mapboxgl-popup-content h3 {
+    margin: 0 0 8px 0;
+    color: #3F5D5F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mapboxgl-popup-content p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.mapboxgl-popup-close-button {
+    color: #999;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.mapboxgl-popup-close-button:hover {
+    color: #3F5D5F;
+}
+
+/* Cluster styling improvements */
+.mapboxgl-canvas {
+    outline: none;
+}
+
+/* Custom marker styling for mosque icons */
+.mosque-marker {
+    background-color: #3F5D5F;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.mosque-marker:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .coordinates-display {
+        font-size: 10px;
+        padding: 4px 8px;
+        top: 8px;
+        left: 8px;
+    }
+    
+    .map-wrapper {
+        height: 50vh; /* Adjust for mobile if needed */
+    }
+    
+    .loading-spinner {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    
+    .mapboxgl-popup-content {
+        max-width: 250px;
+        padding: 10px;
+    }
+    
+    .mapboxgl-popup-content h3 {
+        font-size: 14px;
+    }
+    
+    .mapboxgl-popup-content p {
+        font-size: 12px;
+    }
+}
+
+/* Dark mode support (if needed) */
+@media (prefers-color-scheme: dark) {
+    .coordinates-display {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #333;
+    }
+    
+    .loading-spinner {
+        background: #333;
+        color: white;
+    }
+    
+    .mapboxgl-popup-content {
+        background: #333;
+        color: white;
+    }
+    
+    .mapboxgl-popup-content h3 {
+        color: #92AE8A;
+    }
+}
+
+/* Accessibility improvements */
+.mapboxgl-canvas:focus {
+    outline: 2px solid #3F5D5F;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .coordinates-display,
+    .map-loading {
+        display: none;
+    }
+    
+    .map-wrapper {
+        height: 400px;
+    }
 }

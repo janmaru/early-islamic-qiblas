@@ -1,0 +1,43 @@
+{
+  "name": "early-islamic-qiblas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11",
+    "mapbox-gl": "^2.6.1",
+    "namor": "^1.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
+    "react-table": "^6.10.0",
+    "reactstrap": "^6.5.0",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "ajv": "^6.10.0",
+    "babel-eslint": "^7.2.3",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.1.1",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/"
+  }
+}
