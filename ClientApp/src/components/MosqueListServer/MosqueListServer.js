@@ -2,9 +2,6 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import {
     useReactTable,
     getCoreRowModel,
-    getPaginationRowModel,
-    getSortedRowModel,
-    getFilteredRowModel,
     flexRender,
     createColumnHelper
 } from '@tanstack/react-table';
