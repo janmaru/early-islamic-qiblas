@@ -1,29 +1,76 @@
-# Instruction!
-Getting started
- -  A Mapbox access token. You can request a new token here: [https://account.mapbox.com/](https://account.mapbox.com/) 
- -  Add an .env file in the root of ClientApp folder in order to make it fully functional. 
-```shell
-    REACT_APP_MAPBOX_ACCESS_TOKEN = <your_key> 
-    REACT_APP_MAPBOX_STYLE = <your_style> 
-``` 
- -  Mapbox GL JS. Mapbox GL JS is a JavaScript library used for building web maps.
- -  A text editor. Use the text editor of your choice for writing HTML, CSS, and JavaScript.
- -  Node.js, npm and Yarn. To run the commands necessary to run your React app locally, install Node.js, npm and Yarn
- -  Working familiarity with React.  
- -  Data is stored in the /Data folder as json file.
- -  Added EF InMemory
+# Early Islamic Qiblas
 
+A web application for visualizing early Islamic qibla (prayer direction) data with interactive maps and tabular views.
 
-## .net 7.0.x
+## Prerequisites
 
- It's a .net mvc project. There are two controllers dealing with data, one is for the tabular data, the other for the geo markers.
+- **Node.js and npm/Yarn** - For running the React frontend
+- **.NET 9.0 SDK** - For running the ASP.NET Core backend
+- **Mapbox Account** - For map visualization
 
-## node.js and react
+## Getting Started
 
-Using:
-        "react": "^16.8.6",
-        "react-table": "^6.10.0"
-        "mapbox-gl": "^2.6.1" 
+1. **Mapbox Setup**
+   - Get a Mapbox access token from [https://account.mapbox.com/](https://account.mapbox.com/)
+   - Create a `.env` file in the `ClientApp` folder:
+   ```shell
+   REACT_APP_MAPBOX_ACCESS_TOKEN = <your_key>
+   REACT_APP_MAPBOX_STYLE = <your_style>
+   ```
+
+2. **Installation**
+   ```bash
+   # Install backend dependencies
+   dotnet restore
+   
+   # Install frontend dependencies
+   cd ClientApp
+   npm install
+   ```
+
+3. **Running the Application**
+   ```bash
+   # From the root directory
+   dotnet run
+   ```
+
+## Technology Stack
+
+### Backend - ASP.NET Core (.NET 9.0)
+- **Framework**: ASP.NET Core MVC with SPA Services
+- **Database**: Entity Framework Core with In-Memory provider
+- **Data**: JSON files in `/Data` folder
+- **Controllers**: MosqueController (tabular data), MarkerController (geo markers)
+- **Architecture**: Repository pattern with dependency injection
+
+### Frontend - React
+- **React**: ^16.8.6
+- **Mapping**: Mapbox GL JS ^2.6.1
+- **UI Components**: Bootstrap 4, Reactstrap
+- **Data Tables**: React Table ^6.10.0
+- **Routing**: React Router DOM ^4.3.1
+
+## Project Structure
+
+```
+├── ClientApp/              # React frontend
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── assets/         # CSS and static assets
+│   │   └── helpers/        # Utility functions
+├── Controllers/            # ASP.NET Core controllers
+├── Models/                 # Domain models and services
+├── Data/                   # JSON data files
+└── Properties/             # Launch settings
+```
+
+## Features
+
+- Interactive map visualization of mosque locations
+- Tabular data view with pagination
+- Responsive design
+- CORS-enabled API
+- In-memory data persistence 
 
 ![Qiblas](qiblas2.png)
 ![Qiblas](qiblas.PNG)
