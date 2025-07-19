@@ -2,13 +2,8 @@
 using EarlyIslamicQiblas.Models.Infrastructure;
 using EarlyIslamicQiblas.Models.Infrastructure.Persistence;
 using EarlyIslamicQiblas.Models.Service;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using System;
 
 namespace EarlyIslamicQiblas.Models.Configuration;
 
@@ -56,7 +51,7 @@ public class NativeInjectorBootStrapper
 
         var sp = services.BuildServiceProvider();
         var dbContext = sp.GetService<MosqueDbContext>(); 
-        DataLoader seeding = new(dbContext); 
+        DataLoader seeding = new(dbContext!); 
 
         services.AddLogging(); 
         AutoMapperConfig.RegisterMappings();
