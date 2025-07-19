@@ -22,7 +22,7 @@ namespace EarlyIslamicQiblas.Models.Infrastructure
 
             services.AddMvc();
 
-            // In production, the Angular files will be served from this directory
+            // In production, the Angular/React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/build";

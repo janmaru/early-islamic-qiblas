@@ -1,7 +1,7 @@
 {
   "main": "Map.js",
   "name": "st-map",
-  "description": "stadium mapbox component",
+  "description": "mapbox component",
   "version": "0.0.1",
   "keywords": [
     "map",

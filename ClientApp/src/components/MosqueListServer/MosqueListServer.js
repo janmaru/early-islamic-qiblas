@@ -38,12 +38,7 @@ export class MosqueListServer extends React.Component {
                 //showPagination={true}
                 pages={pages} // Display the total number of pages
                 defaultPageSize={10} 
-                columns={[
-                    {
-                        Header: "Classification",
-                        accessor: "gibsonClassification",
-                        minWidth: 100
-                    },
+                columns={[ 
                     {
                         Header: "Age Group",
                         accessor: "ageGroup",
@@ -68,6 +63,22 @@ export class MosqueListServer extends React.Component {
                         Header: "Name",
                         accessor: "mosqueName",
                         minWidth: 100
+                    },
+                    {
+                        Header: "Name",
+                        accessor: "mosqueName",
+                        minWidth: 100,
+                        Cell: (row) => {
+                            const name = row.value;
+                            const link = row.original.moreInfo;
+                            return link && link !== "#" ? (
+                                <a href={link} target="_blank" rel="noopener noreferrer">
+                                    {name}
+                                </a>
+                            ) : (
+                                name
+                            );
+                        }
                     }
                 ]}
                 loading={loading} // Display the loading overlay when we need it

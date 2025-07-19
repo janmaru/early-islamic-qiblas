@@ -35,12 +35,7 @@ export class MosqueList extends Component {
                 PaginationComponent={Pagination}
                 defaultPageSize={10} 
                 data={mosques}
-                columns={[
-                    {
-                        Header: "Classification",
-                        accessor: "gibsonClassification",
-                        minWidth: 100
-                    },
+                columns={[ 
                     {
                         Header: "Age Group",
                         accessor: "ageGroup",
@@ -64,7 +59,18 @@ export class MosqueList extends Component {
                     {
                         Header: "Name",
                         accessor: "mosqueName",
-                        minWidth: 100
+                        minWidth: 100,
+                        Cell: (row) => {
+                            const name = row.value;
+                            const link = row.original.moreInfo;
+                            return link && link !== "#" ? (
+                                <a href={link} target="_blank" rel="noopener noreferrer">
+                                    {name}
+                                </a>
+                            ) : (
+                                name
+                            );
+                        }
                     }
                 ]}
             />
