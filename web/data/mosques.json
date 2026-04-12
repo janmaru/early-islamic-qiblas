@@ -1,0 +1,2328 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.617228,
+          24.439619
+        ]
+      },
+      "properties": {
+        "title": "Quba Mosque",
+        "description": "<h3>Quba Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Medina</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Muhammad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>622</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>1</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>435 AH</td></tr></table><a href='http://archnet.org/sites/548' title='More Info' target='_blank'>More Info</a>",
+        "city": "Medina",
+        "country": "Saudi Arabia",
+        "ageGroup": "Muhammad",
+        "yearCE": "622",
+        "yearAH": "1",
+        "rebuilt": "435 AH",
+        "moreInfo": "http://archnet.org/sites/548",
+        "dir": 328,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.611376,
+          24.467615
+        ]
+      },
+      "properties": {
+        "title": "Prophets Mosque",
+        "description": "<h3>Prophets Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Medina</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Muhammad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>623</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>2</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>707 & 1951 CE</td></tr></table><a href='http://archnet.org/sites/3789/' title='More Info' target='_blank'>More Info</a>",
+        "city": "Medina",
+        "country": "Saudi Arabia",
+        "ageGroup": "Muhammad",
+        "yearCE": "623",
+        "yearAH": "2",
+        "rebuilt": "707 & 1951 CE",
+        "moreInfo": "http://archnet.org/sites/3789/",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.578658,
+          24.484089
+        ]
+      },
+      "properties": {
+        "title": "Mosque of the Two Qiblas",
+        "description": "<h3>Mosque of the Two Qiblas</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Medina</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Muhammad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>626</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>5</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1987 CE</td></tr></table><a href='http://archnet.org/sites/580' title='More Info' target='_blank'>More Info</a>",
+        "city": "Medina",
+        "country": "Saudi Arabia",
+        "ageGroup": "Muhammad",
+        "yearCE": "626",
+        "yearAH": "5",
+        "rebuilt": "1987 CE",
+        "moreInfo": "http://archnet.org/sites/580",
+        "dir": 0,
+        "gibsonClassification": "Jerusalem & Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.166606,
+          13.669119
+        ]
+      },
+      "properties": {
+        "title": "Janad Mosque",
+        "description": "<h3>Janad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Janad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Yemen</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Muhammad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>627</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>6</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1011 CE</td></tr></table><a href='http://archnet.org/sites/3811' title='More Info' target='_blank'>More Info</a>",
+        "city": "Janad",
+        "country": "Yemen",
+        "ageGroup": "Muhammad",
+        "yearCE": "627",
+        "yearAH": "6",
+        "rebuilt": "1011 CE",
+        "moreInfo": "http://archnet.org/sites/3811",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.678872,
+          25.469615
+        ]
+      },
+      "properties": {
+        "title": "Jowatha Mosque",
+        "description": "<h3>Jowatha Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>al-Kilabiyah</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Muhammad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>629</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>8</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>9th Century</td></tr></table>",
+        "city": "al-Kilabiyah",
+        "country": "Saudi Arabia",
+        "ageGroup": "Muhammad",
+        "yearCE": "629",
+        "yearAH": "8",
+        "rebuilt": "9th Century",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.166579,
+          10.223355
+        ]
+      },
+      "properties": {
+        "title": "Cheraman Juma",
+        "description": "<h3>Cheraman Juma</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Methala, Kerala</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>India</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abu Bakr</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>629</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>8</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>11th Century</td></tr></table>",
+        "city": "Methala, Kerala",
+        "country": "India",
+        "ageGroup": "Abu Bakr",
+        "yearCE": "629",
+        "yearAH": "8",
+        "rebuilt": "11th Century",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.867731,
+          29.812028
+        ]
+      },
+      "properties": {
+        "title": "Umar ibn al-Khattab",
+        "description": "<h3>Umar ibn al-Khattab</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Dawmat al Jandal</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abu Bakr</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>634</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>13</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1793 CE</td></tr></table><a href='http://archnet.org/sites/3796' title='More Info' target='_blank'>More Info</a>",
+        "city": "Dawmat al Jandal",
+        "country": "Saudi Arabia",
+        "ageGroup": "Abu Bakr",
+        "yearCE": "634",
+        "yearAH": "13",
+        "rebuilt": "1793 CE",
+        "moreInfo": "http://archnet.org/sites/3796",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.748679,
+          35.134475
+        ]
+      },
+      "properties": {
+        "title": "Hama Great Mosque",
+        "description": "<h3>Hama Great Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Hama</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>637</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>15</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3497' title='More Info' target='_blank'>More Info</a>",
+        "city": "Hama",
+        "country": "Syria",
+        "ageGroup": "Umar",
+        "yearCE": "637",
+        "yearAH": "15",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3497",
+        "dir": 193.87,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.126931,
+          36.342902
+        ]
+      },
+      "properties": {
+        "title": "Jonah Mosque",
+        "description": "<h3>Jonah Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Mosoul</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>637</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>16</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1393 CE</td></tr></table><a href='http://archnet.org/sites/14987' title='More Info' target='_blank'>More Info</a>",
+        "city": "Mosoul",
+        "country": "Iraq",
+        "ageGroup": "Umar",
+        "yearCE": "637",
+        "yearAH": "16",
+        "rebuilt": "1393 CE",
+        "moreInfo": "http://archnet.org/sites/14987",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.400833,
+          32.028611
+        ]
+      },
+      "properties": {
+        "title": "Kufa Grand Mosque",
+        "description": "<h3>Kufa Grand Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Kufa</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>638</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>16</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>749 CE</td></tr></table><a href='http://archnet.org/sites/3823' title='More Info' target='_blank'>More Info</a>",
+        "city": "Kufa",
+        "country": "Iraq",
+        "ageGroup": "Umar",
+        "yearCE": "638",
+        "yearAH": "16",
+        "rebuilt": "749 CE",
+        "moreInfo": "http://archnet.org/sites/3823",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.233376,
+          30.010516
+        ]
+      },
+      "properties": {
+        "title": "Amr ibn -Al-As",
+        "description": "<h3>Amr ibn -Al-As</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Fustat</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Egypt</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>642</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>21</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>211 AH</td></tr></table><a href='http://archnet.org/sites/1511' title='More Info' target='_blank'>More Info</a>",
+        "city": "Fustat",
+        "country": "Egypt",
+        "ageGroup": "Umar",
+        "yearCE": "642",
+        "yearAH": "21",
+        "rebuilt": "211 AH",
+        "moreInfo": "http://archnet.org/sites/1511",
+        "dir": 90,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.187469,
+          21.486227
+        ]
+      },
+      "properties": {
+        "title": "Imam Shafi'I Mosque",
+        "description": "<h3>Imam Shafi'I Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jeddah</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Uthman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>649</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>28</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1251</td></tr></table><a href='http://archnet.org/sites/2268' title='More Info' target='_blank'>More Info</a>",
+        "city": "Jeddah",
+        "country": "Saudi Arabia",
+        "ageGroup": "Uthman",
+        "yearCE": "649",
+        "yearAH": "28",
+        "rebuilt": 1251,
+        "moreInfo": "http://archnet.org/sites/2268",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.610306,
+          34.885283
+        ]
+      },
+      "properties": {
+        "title": "Hala Sultan Tekke",
+        "description": "<h3>Hala Sultan Tekke</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Larnaca</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Cyprus</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Uthman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>649</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>28</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1323 CE</td></tr></table><a href='http://archnet.org/sites/9150' title='More Info' target='_blank'>More Info</a>",
+        "city": "Larnaca",
+        "country": "Cyprus",
+        "ageGroup": "Uthman",
+        "yearCE": "649",
+        "yearAH": "28",
+        "rebuilt": "1323 CE",
+        "moreInfo": "http://archnet.org/sites/9150",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.897497,
+          34.749392
+        ]
+      },
+      "properties": {
+        "title": "Mosque of Sidi 'Ukba",
+        "description": "<h3>Mosque of Sidi 'Ukba</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Biskra</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Algeria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>686</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>67</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>416 & 1214 AH</td></tr></table><a href='http://archnet.org/sites/17008' title='More Info' target='_blank'>More Info</a>",
+        "city": "Biskra",
+        "country": "Algeria",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "686",
+        "yearAH": "67",
+        "rebuilt": "416 & 1214 AH",
+        "moreInfo": "http://archnet.org/sites/17008",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235286,
+          31.778118
+        ]
+      },
+      "properties": {
+        "title": "Dome of the Rock",
+        "description": "<h3>Dome of the Rock</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jerusalem</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel/Occupied</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>690</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>71</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/2814' title='More Info' target='_blank'>More Info</a>",
+        "city": "Jerusalem",
+        "country": "Israel/Occupied",
+        "ageGroup": "2nd Fitna",
+        "yearCE": "690",
+        "yearAH": "71",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/2814",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235736,
+          31.778141
+        ]
+      },
+      "properties": {
+        "title": "Dome of the Chain",
+        "description": "<h3>Dome of the Chain</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jerusalem</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel/Occupied</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>690</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>71</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4348' title='More Info' target='_blank'>More Info</a>",
+        "city": "Jerusalem",
+        "country": "Israel/Occupied",
+        "ageGroup": "2nd Fitna",
+        "yearCE": "690",
+        "yearAH": "71",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4348",
+        "dir": 172.03,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.345925,
+          29.9499
+        ]
+      },
+      "properties": {
+        "title": "Qasr Humeima",
+        "description": "<h3>Qasr Humeima</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Humeima</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>699</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>80</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Humeima",
+        "country": "Jordan",
+        "ageGroup": "2nd Fitna",
+        "yearCE": "699",
+        "yearAH": "80",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 20.64,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.973836,
+          31.898928
+        ]
+      },
+      "properties": {
+        "title": "Seven Sleepers Mosque",
+        "description": "<h3>Seven Sleepers Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Amman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Amman",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 196.03,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.891308,
+          32.279156
+        ]
+      },
+      "properties": {
+        "title": "Jerash Umayyad Mosque",
+        "description": "<h3>Jerash Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jerash</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Jerash",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 196.32,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.000388,
+          29.530927
+        ]
+      },
+      "properties": {
+        "title": "Aqaba Umayyad Mosque",
+        "description": "<h3>Aqaba Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Aqaba</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Aqaba",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 36.24,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.315719,
+          31.813172
+        ]
+      },
+      "properties": {
+        "title": "Qasr Mushash",
+        "description": "<h3>Qasr Mushash</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 202.95,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.471351,
+          11.353723
+        ]
+      },
+      "properties": {
+        "title": "Zeila QibLatain Mosque (Rt)",
+        "description": "<h3>Zeila QibLatain Mosque (Rt)</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Zeila</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Somolia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>Unknown</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>Unknown</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Zeila",
+        "country": "Somolia",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "Unknown",
+        "yearAH": "Unknown",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 341.9,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.342485,
+          32.368201
+        ]
+      },
+      "properties": {
+        "title": "Qasr El-Bai'j",
+        "description": "<h3>Qasr El-Bai'j</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>410 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>410 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "410 CE",
+        "yearAH": "410 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 210.2,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3677,
+          32.324878
+        ]
+      },
+      "properties": {
+        "title": "Um Jimal Later Castellum",
+        "description": "<h3>Um Jimal Later Castellum</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Um Jimal</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>300-399 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>300-399 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Um Jimal",
+        "country": "Jordan",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "300-399 CE",
+        "yearAH": "300-399 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 203.03,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.471351,
+          11.353723
+        ]
+      },
+      "properties": {
+        "title": "Zeila QibLatain Mosque (Lft)",
+        "description": "<h3>Zeila QibLatain Mosque (Lft)</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Zeila</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Somolia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Zeila",
+        "country": "Somolia",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 339.1,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.212722,
+          31.739257
+        ]
+      },
+      "properties": {
+        "title": "Kathisma church",
+        "description": "<h3>Kathisma church</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Bethlehem</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad to 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>600-699 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Bethlehem",
+        "country": "Israel",
+        "ageGroup": "Umayyad to 2nd Fitna",
+        "yearCE": "600-699 CE",
+        "yearAH": "600-699 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 174,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.962325,
+          32.608469
+        ]
+      },
+      "properties": {
+        "title": "Qasr Burqu'",
+        "description": "<h3>Qasr Burqu'</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>81</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/5560' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700",
+        "yearAH": "81",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/5560",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.214939,
+          15.353109
+        ]
+      },
+      "properties": {
+        "title": "San'a Grand Mosque",
+        "description": "<h3>San'a Grand Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>San'a</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Yemen</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>705</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>86</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3800' title='More Info' target='_blank'>More Info</a>",
+        "city": "San'a",
+        "country": "Yemen",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "705",
+        "yearAH": "86",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3800",
+        "dir": 333.6,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.536262,
+          32.865088
+        ]
+      },
+      "properties": {
+        "title": "Khirbit al Minya",
+        "description": "<h3>Khirbit al Minya</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Khirbat al Minya</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>706</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>87</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/5574' title='More Info' target='_blank'>More Info</a>",
+        "city": "Khirbat al Minya",
+        "country": "Israel",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "706",
+        "yearAH": "87",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/5574",
+        "dir": 182.67,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.281694,
+          32.189674
+        ]
+      },
+      "properties": {
+        "title": "Hajjaj Mosque",
+        "description": "<h3>Hajjaj Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Wasit</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>706</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>87</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Wasit",
+        "country": "Iraq",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "706",
+        "yearAH": "87",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 234.98,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.354392,
+          36.164323
+        ]
+      },
+      "properties": {
+        "title": "Masjid al-Tarik Khana",
+        "description": "<h3>Masjid al-Tarik Khana</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Damghan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>708</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>89</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/1605' title='More Info' target='_blank'>More Info</a>",
+        "city": "Damghan",
+        "country": "Iran",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "708",
+        "yearAH": "89",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/1605",
+        "dir": 244.82,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235713,
+          31.776174
+        ]
+      },
+      "properties": {
+        "title": "Al-Aqsa Mosque",
+        "description": "<h3>Al-Aqsa Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jerusalem</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel/Occupied</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>709</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>90</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/2809' title='More Info' target='_blank'>More Info</a>",
+        "city": "Jerusalem",
+        "country": "Israel/Occupied",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "709",
+        "yearAH": "90",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/2809",
+        "dir": 169.61,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.306588,
+          33.511825
+        ]
+      },
+      "properties": {
+        "title": "Damascus Umayyad Mosque",
+        "description": "<h3>Damascus Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Damascus</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>709</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>91</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/31' title='More Info' target='_blank'>More Info</a>",
+        "city": "Damascus",
+        "country": "Syria",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "709",
+        "yearAH": "91",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/31",
+        "dir": 177.21,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.462795,
+          31.728982
+        ]
+      },
+      "properties": {
+        "title": "Qasr Al-Kharana",
+        "description": "<h3>Qasr Al-Kharana</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>710</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>92</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3544' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "710",
+        "yearAH": "92",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3544",
+        "dir": 175.01,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.934353,
+          31.954671
+        ]
+      },
+      "properties": {
+        "title": "Amman Umayyad Mosque",
+        "description": "<h3>Amman Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Amman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>710</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>82</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Amman",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "710",
+        "yearAH": "82",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 181.5,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.871801,
+          31.615448
+        ]
+      },
+      "properties": {
+        "title": "Um Walid",
+        "description": "<h3>Um Walid</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Al Zafaran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>712</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>93</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Al Zafaran",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "712",
+        "yearAH": "93",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 197.41,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.100916,
+          31.513294
+        ]
+      },
+      "properties": {
+        "title": "Khann al Zabib",
+        "description": "<h3>Khann al Zabib</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>712</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>93</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "712",
+        "yearAH": "93",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 171.93,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459649,
+          31.882747
+        ]
+      },
+      "properties": {
+        "title": "Khirbat al Mafjar",
+        "description": "<h3>Khirbat al Mafjar</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Jericho</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel/Occupied</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>714</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>95</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4136' title='More Info' target='_blank'>More Info</a>",
+        "city": "Jericho",
+        "country": "Israel/Occupied",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "714",
+        "yearAH": "95",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4136",
+        "dir": 180.03,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.933831,
+          33.732008
+        ]
+      },
+      "properties": {
+        "title": "Anjar",
+        "description": "<h3>Anjar</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Anjar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Lebanon</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>714</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>95</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3711' title='More Info' target='_blank'>More Info</a>",
+        "city": "Anjar",
+        "country": "Lebanon",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "714",
+        "yearAH": "95",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3711",
+        "dir": 190.76,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.156841,
+          36.19935
+        ]
+      },
+      "properties": {
+        "title": "Aleppo Umayyad Mosque",
+        "description": "<h3>Aleppo Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Aleppo</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>715</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>96</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/1804' title='More Info' target='_blank'>More Info</a>",
+        "city": "Aleppo",
+        "country": "Syria",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "715",
+        "yearAH": "96",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/1804",
+        "dir": 178.7,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.5483,
+          26.2082
+        ]
+      },
+      "properties": {
+        "title": "Masjid al Khamis",
+        "description": "<h3>Masjid al Khamis</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Manama</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Bahrain</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>717</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>99</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>449 AH</td></tr></table><a href='http://archnet.org/sites/3788' title='More Info' target='_blank'>More Info</a>",
+        "city": "Manama",
+        "country": "Bahrain",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "717",
+        "yearAH": "99",
+        "rebuilt": "449 AH",
+        "moreInfo": "http://archnet.org/sites/3788",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.939875,
+          31.746089
+        ]
+      },
+      "properties": {
+        "title": "Qasr  Qastal",
+        "description": "<h3>Qasr  Qastal</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Qastal</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>720</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>101</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Qastal",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "720",
+        "yearAH": "101",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 191.74,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.482897,
+          32.521514
+        ]
+      },
+      "properties": {
+        "title": "Mosque of Bosra",
+        "description": "<h3>Mosque of Bosra</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Bosra</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>721</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>102</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/10552' title='More Info' target='_blank'>More Info</a>",
+        "city": "Bosra",
+        "country": "Syria",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "721",
+        "yearAH": "102",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/10552",
+        "dir": 183.63,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.10375,
+          31.812609
+        ]
+      },
+      "properties": {
+        "title": "Qasr Muwaqqar",
+        "description": "<h3>Qasr Muwaqqar</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Muwaqqar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>723</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>104</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Muwaqqar",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "723",
+        "yearAH": "104",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 182.98,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.416165,
+          33.330967
+        ]
+      },
+      "properties": {
+        "title": "Mosque of Rusafa",
+        "description": "<h3>Mosque of Rusafa</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Baghdad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>724</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>105</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/4274' title='More Info' target='_blank'>More Info</a>",
+        "city": "Baghdad",
+        "country": "Iraq",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "724",
+        "yearAH": "105",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/4274",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.93461,
+          31.949711
+        ]
+      },
+      "properties": {
+        "title": "Grand Hussein Mosque",
+        "description": "<h3>Grand Hussein Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Amman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>725</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>106</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Amman",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "725",
+        "yearAH": "106",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.584353,
+          34.344381
+        ]
+      },
+      "properties": {
+        "title": "Qasr al Hayr al Gharbi",
+        "description": "<h3>Qasr al Hayr al Gharbi</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>726</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>107</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4138' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Syria",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "726",
+        "yearAH": "107",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4138",
+        "dir": 191.01,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.521944,
+          24.752318
+        ]
+      },
+      "properties": {
+        "title": "Banbhore",
+        "description": "<h3>Banbhore</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Banbhore</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Pakistan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>727</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>109</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3976' title='More Info' target='_blank'>More Info</a>",
+        "city": "Banbhore",
+        "country": "Pakistan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "727",
+        "yearAH": "109",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3976",
+        "dir": 265.78,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.071061,
+          35.073945
+        ]
+      },
+      "properties": {
+        "title": "Qasr Hayr al Sharqi",
+        "description": "<h3>Qasr Hayr al Sharqi</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>728</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>110</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4137' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Syria",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "728",
+        "yearAH": "110",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4137",
+        "dir": 192.61,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.934136,
+          31.955517
+        ]
+      },
+      "properties": {
+        "title": "Amman Umayyad Palace",
+        "description": "<h3>Amman Umayyad Palace</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Amman Citadel</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>730</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>112</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3545' title='More Info' target='_blank'>More Info</a>",
+        "city": "Amman Citadel",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "730",
+        "yearAH": "112",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3545",
+        "dir": 159.46,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.171056,
+          36.797473
+        ]
+      },
+      "properties": {
+        "title": "Jami' al-Zaytuna",
+        "description": "<h3>Jami' al-Zaytuna</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Tunis</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Tunisia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>732</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>115</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3765' title='More Info' target='_blank'>More Info</a>",
+        "city": "Tunis",
+        "country": "Tunisia",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "732",
+        "yearAH": "115",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3765",
+        "dir": 154.12,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.207294,
+          34.007102
+        ]
+      },
+      "properties": {
+        "title": "Ba'albeck Mosque",
+        "description": "<h3>Ba'albeck Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Baalbeck</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Lebanon</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>740</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>122</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4421' title='More Info' target='_blank'>More Info</a>",
+        "city": "Baalbeck",
+        "country": "Lebanon",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "740",
+        "yearAH": "122",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4421",
+        "dir": 176.86,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.253737,
+          23.125902
+        ]
+      },
+      "properties": {
+        "title": "Huajuexiang Mosque",
+        "description": "<h3>Huajuexiang Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Xian</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>China</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>742</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>125</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1392 CE</td></tr></table><a href='http://archnet.org/sites/3973' title='More Info' target='_blank'>More Info</a>",
+        "city": "Xian",
+        "country": "China",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "742",
+        "yearAH": "125",
+        "rebuilt": "1392 CE",
+        "moreInfo": "http://archnet.org/sites/3973",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.67929,
+          30.761803
+        ]
+      },
+      "properties": {
+        "title": "Qasr Bayir",
+        "description": "<h3>Qasr Bayir</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>743</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>125</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "743",
+        "yearAH": "125",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 166.67,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.009986,
+          31.738172
+        ]
+      },
+      "properties": {
+        "title": "Qasr Mushatta",
+        "description": "<h3>Qasr Mushatta</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>743</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>126</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4135' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "743",
+        "yearAH": "126",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4135",
+        "dir": 195.13,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.58727,
+          31.801758
+        ]
+      },
+      "properties": {
+        "title": "Amra Bathhouse",
+        "description": "<h3>Amra Bathhouse</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>743</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>126</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4772' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "743",
+        "yearAH": "126",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4772",
+        "dir": 194.49,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.571288,
+          31.325786
+        ]
+      },
+      "properties": {
+        "title": "Qasr Tubah",
+        "description": "<h3>Qasr Tubah</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>743</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>126</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4139' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "743",
+        "yearAH": "126",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4139",
+        "dir": 292.02,
+        "gibsonClassification": "Jerusalem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.031172,
+          36.864805
+        ]
+      },
+      "properties": {
+        "title": "Harran University & Mosque",
+        "description": "<h3>Harran University & Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Harran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Turkey</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>744</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>127</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/1958' title='More Info' target='_blank'>More Info</a>",
+        "city": "Harran",
+        "country": "Turkey",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "744",
+        "yearAH": "127",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/1958",
+        "dir": 191.74,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.625508,
+          15.926561
+        ]
+      },
+      "properties": {
+        "title": "Shibam Palace",
+        "description": "<h3>Shibam Palace</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Shibam</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Yemen</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>753</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>135</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/3801' title='More Info' target='_blank'>More Info</a>",
+        "city": "Shibam",
+        "country": "Yemen",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "753",
+        "yearAH": "135",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/3801",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.411652,
+          33.300737
+        ]
+      },
+      "properties": {
+        "title": "Mosque of Mansur",
+        "description": "<h3>Mosque of Mansur</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Baghdad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>762</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>145</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>demolished</td></tr></table><a href='http://archnet.org/sites/5374' title='More Info' target='_blank'>More Info</a>",
+        "city": "Baghdad",
+        "country": "Iraq",
+        "ageGroup": "Abbasid",
+        "yearCE": "762",
+        "yearAH": "145",
+        "rebuilt": "demolished",
+        "moreInfo": "http://archnet.org/sites/5374",
+        "dir": 200.03,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.601702,
+          32.437419
+        ]
+      },
+      "properties": {
+        "title": "Qasr UkhayDir",
+        "description": "<h3>Qasr UkhayDir</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Kufa</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>764</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>146</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3827' title='More Info' target='_blank'>More Info</a>",
+        "city": "Kufa",
+        "country": "Iraq",
+        "ageGroup": "Abbasid",
+        "yearCE": "764",
+        "yearAH": "146",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3827",
+        "dir": 198.24,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.638728,
+          35.827625
+        ]
+      },
+      "properties": {
+        "title": "Ribat Fortress",
+        "description": "<h3>Ribat Fortress</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Ribat</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Tunisia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>770</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>153</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3762' title='More Info' target='_blank'>More Info</a>",
+        "city": "Ribat",
+        "country": "Tunisia",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "770",
+        "yearAH": "153",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3762",
+        "dir": 182.59,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.254817,
+          41.916889
+        ]
+      },
+      "properties": {
+        "title": "Tauste Graveyard",
+        "description": "<h3>Tauste Graveyard</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Tauste</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Spain</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>772</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>155</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>Graveyard</td></tr></table>",
+        "city": "Tauste",
+        "country": "Spain",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "772",
+        "yearAH": "155",
+        "rebuilt": "Graveyard",
+        "moreInfo": "#",
+        "dir": 150,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.352019,
+          24.192165
+        ]
+      },
+      "properties": {
+        "title": "Yamama Great Mosque",
+        "description": "<h3>Yamama Great Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Yamama</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Saudi Arabia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Yamama",
+        "country": "Saudi Arabia",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 280.45,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.370356,
+          32.328953
+        ]
+      },
+      "properties": {
+        "title": "Um Jimal Umayyad Mosque",
+        "description": "<h3>Um Jimal Umayyad Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Um Jimal</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Um Jimal",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 180,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.733661,
+          31.784907
+        ]
+      },
+      "properties": {
+        "title": "Qasr Uweinid",
+        "description": "<h3>Qasr Uweinid</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.200684,
+          32.345183
+        ]
+      },
+      "properties": {
+        "title": "Qasr Al-Fudayn",
+        "description": "<h3>Qasr Al-Fudayn</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Mufraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Mufraq",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 178.19,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.845879,
+          31.894204
+        ]
+      },
+      "properties": {
+        "title": "Qasr Ain as-Sil",
+        "description": "<h3>Qasr Ain as-Sil</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Azrak</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Azrak",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 180.3,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.827551,
+          31.880297
+        ]
+      },
+      "properties": {
+        "title": "Azraq Fort Mosque",
+        "description": "<h3>Azraq Fort Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Azraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4231' title='More Info' target='_blank'>More Info</a>",
+        "city": "Azraq",
+        "country": "Jordan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4231",
+        "dir": 184.81,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.951919,
+          31.94615
+        ]
+      },
+      "properties": {
+        "title": "Qasr Aseikhin",
+        "description": "<h3>Qasr Aseikhin</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Abbasid",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 163.89,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.170538,
+          30.2452
+        ]
+      },
+      "properties": {
+        "title": "Fenghuang Mosque",
+        "description": "<h3>Fenghuang Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Hangzhou</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>China</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1281 CE</td></tr></table><a href='http://archnet.org/sites/3971' title='More Info' target='_blank'>More Info</a>",
+        "city": "Hangzhou",
+        "country": "China",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "1281 CE",
+        "moreInfo": "http://archnet.org/sites/3971",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.977292,
+          29.711517
+        ]
+      },
+      "properties": {
+        "title": "Be'er Ora QibLatain",
+        "description": "<h3>Be'er Ora QibLatain</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Be'er Ora</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Israel</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Be'er Ora",
+        "country": "Israel",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.398363,
+          23.54324
+        ]
+      },
+      "properties": {
+        "title": "Sahi Ramdah Mosque",
+        "description": "<h3>Sahi Ramdah Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Bowshar</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Oman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Bowshar",
+        "country": "Oman",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 292.79,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.527554,
+          22.701938
+        ]
+      },
+      "properties": {
+        "title": "QibLatain Mosque",
+        "description": "<h3>QibLatain Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Ibra</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Oman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Ibra",
+        "country": "Oman",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 294,
+        "gibsonClassification": "Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.503175,
+          34.821261
+        ]
+      },
+      "properties": {
+        "title": "Yogharta Mosque",
+        "description": "<h3>Yogharta Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Beni Bouabdellah</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Morocco</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Beni Bouabdellah",
+        "country": "Morocco",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 153.65,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.010229,
+          36.190358
+        ]
+      },
+      "properties": {
+        "title": "Bazaar Qaisariya",
+        "description": "<h3>Bazaar Qaisariya</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Erbil</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Erbil",
+        "country": "Iraq",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 218.53,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.009583,
+          36.191444
+        ]
+      },
+      "properties": {
+        "title": "Erbil Grand Mosque",
+        "description": "<h3>Erbil Grand Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Erbil</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>1719 CE</td></tr></table>",
+        "city": "Erbil",
+        "country": "Iraq",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "1719 CE",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.003808,
+          36.183528
+        ]
+      },
+      "properties": {
+        "title": "Al-Sawaf Mosque Grounds",
+        "description": "<h3>Al-Sawaf Mosque Grounds</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Erbil</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>New mosque,</td></tr></table>",
+        "city": "Erbil",
+        "country": "Iraq",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "New mosque,",
+        "moreInfo": "#",
+        "dir": 234.35,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.253737,
+          23.125902
+        ]
+      },
+      "properties": {
+        "title": "Huaisheng Mosque",
+        "description": "<h3>Huaisheng Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Guangzhou</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>China</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3970' title='More Info' target='_blank'>More Info</a>",
+        "city": "Guangzhou",
+        "country": "China",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3970",
+        "dir": 291.66,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.685189,
+          32.669696
+        ]
+      },
+      "properties": {
+        "title": "Grand Mosque",
+        "description": "<h3>Grand Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Ishfan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>772</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>155</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>419 CE</td></tr></table><a href='http://archnet.org/sites/1621' title='More Info' target='_blank'>More Info</a>",
+        "city": "Ishfan",
+        "country": "Iran",
+        "ageGroup": "Abbasid",
+        "yearCE": "772",
+        "yearAH": "155",
+        "rebuilt": "419 CE",
+        "moreInfo": "http://archnet.org/sites/1621",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.020931,
+          35.951949
+        ]
+      },
+      "properties": {
+        "title": "Raqqa Mosque",
+        "description": "<h3>Raqqa Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Raqqa</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Syria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>772</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>155</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/1859' title='More Info' target='_blank'>More Info</a>",
+        "city": "Raqqa",
+        "country": "Syria",
+        "ageGroup": "Abbasid",
+        "yearCE": "772",
+        "yearAH": "155",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/1859",
+        "dir": 193.9,
+        "gibsonClassification": "Between"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.993979,
+          17.111551
+        ]
+      },
+      "properties": {
+        "title": "Job's Tomb Shrine",
+        "description": "<h3>Job's Tomb Shrine</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Salalah</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Oman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table>",
+        "city": "Salalah",
+        "country": "Oman",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "#",
+        "dir": 0,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.980085,
+          39.660703
+        ]
+      },
+      "properties": {
+        "title": "Bibi Samarkand",
+        "description": "<h3>Bibi Samarkand</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Samarkand</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Uzbekistan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Umayyad after 2nd Fitna</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/authorities/3928/sites/2464' title='More Info' target='_blank'>More Info</a>",
+        "city": "Samarkand",
+        "country": "Uzbekistan",
+        "ageGroup": "Umayyad after 2nd Fitna",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/authorities/3928/sites/2464",
+        "dir": 261.64,
+        "gibsonClassification": "Jerusalem & Petra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.164013,
+          30.13357
+        ]
+      },
+      "properties": {
+        "title": "Abdul Qader Yagouri Mosque",
+        "description": "<h3>Abdul Qader Yagouri Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Béni Abbès</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Algeria</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>700-799 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Béni Abbès",
+        "country": "Algeria",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "700-799 CE",
+        "yearAH": "700-799 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 114.65,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.779551,
+          37.879041
+        ]
+      },
+      "properties": {
+        "title": "Cordoba Mosque",
+        "description": "<h3>Cordoba Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Cordoba</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Spain</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>784</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>168</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/2715' title='More Info' target='_blank'>More Info</a>",
+        "city": "Cordoba",
+        "country": "Spain",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "784",
+        "yearAH": "168",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/2715",
+        "dir": 157.12,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.338125,
+          33.380388
+        ]
+      },
+      "properties": {
+        "title": "Shrine of Kazmiyya",
+        "description": "<h3>Shrine of Kazmiyya</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Baghdad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>799</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>183</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/3848' title='More Info' target='_blank'>More Info</a>",
+        "city": "Baghdad",
+        "country": "Iraq",
+        "ageGroup": "Abbasid",
+        "yearCE": "799",
+        "yearAH": "183",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/3848",
+        "dir": 269.73,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.312618,
+          14.195921
+        ]
+      },
+      "properties": {
+        "title": "Al-Asha'ir Mosque",
+        "description": "<h3>Al-Asha'ir Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Zabid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Yemen</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>820</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>184</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/3812' title='More Info' target='_blank'>More Info</a>",
+        "city": "Zabid",
+        "country": "Yemen",
+        "ageGroup": "Abbasid",
+        "yearCE": "820",
+        "yearAH": "184",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/3812",
+        "dir": 348.97,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.327991,
+          32.092925
+        ]
+      },
+      "properties": {
+        "title": "Qasr Hallabat",
+        "description": "<h3>Qasr Hallabat</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>827</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>212</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/2851' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Abbasid",
+        "yearCE": "827",
+        "yearAH": "212",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/2851",
+        "dir": 142.72,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.328439,
+          32.092703
+        ]
+      },
+      "properties": {
+        "title": "Qasr Hallabat Mosque",
+        "description": "<h3>Qasr Hallabat Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Desert Castle</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Jordan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>827</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>212</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/2851' title='More Info' target='_blank'>More Info</a>",
+        "city": "Desert Castle",
+        "country": "Jordan",
+        "ageGroup": "Abbasid",
+        "yearCE": "827",
+        "yearAH": "212",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/2851",
+        "dir": 163.55,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.103819,
+          35.681711
+        ]
+      },
+      "properties": {
+        "title": "Jami' Uqba Ibn Nafi'",
+        "description": "<h3>Jami' Uqba Ibn Nafi'</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Qayrawan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Tunisia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>836</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>221</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3763' title='More Info' target='_blank'>More Info</a>",
+        "city": "Qayrawan",
+        "country": "Tunisia",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "836",
+        "yearAH": "221",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3763",
+        "dir": 150.89,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.87985,
+          34.205926
+        ]
+      },
+      "properties": {
+        "title": "Great Mosque of Samarra",
+        "description": "<h3>Great Mosque of Samarra</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Samarra</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>847</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>232</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3828' title='More Info' target='_blank'>More Info</a>",
+        "city": "Samarra",
+        "country": "Iraq",
+        "ageGroup": "Abbasid",
+        "yearCE": "847",
+        "yearAH": "232",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3828",
+        "dir": 197.79,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.639742,
+          35.826878
+        ]
+      },
+      "properties": {
+        "title": "Great Mosque of Susa",
+        "description": "<h3>Great Mosque of Susa</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Susa</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Tunisia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>850</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>236</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/4194' title='More Info' target='_blank'>More Info</a>",
+        "city": "Susa",
+        "country": "Tunisia",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "850",
+        "yearAH": "236",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/4194",
+        "dir": 161.89,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.80144,
+          34.360868
+        ]
+      },
+      "properties": {
+        "title": "Abu Dulaf Mosque",
+        "description": "<h3>Abu Dulaf Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Samarra</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iraq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>859</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>245</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3830' title='More Info' target='_blank'>More Info</a>",
+        "city": "Samarra",
+        "country": "Iraq",
+        "ageGroup": "Abbasid",
+        "yearCE": "859",
+        "yearAH": "245",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3830",
+        "dir": 191.57,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.103867,
+          35.678909
+        ]
+      },
+      "properties": {
+        "title": "Mosque of the Three Doors",
+        "description": "<h3>Mosque of the Three Doors</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Qiruwan (Kairouan)</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Tunisia</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid / Umayyad</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>866</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>252</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3766' title='More Info' target='_blank'>More Info</a>",
+        "city": "Qiruwan (Kairouan)",
+        "country": "Tunisia",
+        "ageGroup": "Abbasid / Umayyad",
+        "yearCE": "866",
+        "yearAH": "252",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3766",
+        "dir": 158.65,
+        "gibsonClassification": "Parallel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.625555,
+          15.926563
+        ]
+      },
+      "properties": {
+        "title": "Great Mosque of Shibam",
+        "description": "<h3>Great Mosque of Shibam</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Shibam Aqyan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Yemen</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>871</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>257</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/3803/media_contents/212' title='More Info' target='_blank'>More Info</a>",
+        "city": "Shibam Aqyan",
+        "country": "Yemen",
+        "ageGroup": "Abbasid",
+        "yearCE": "871",
+        "yearAH": "257",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/3803/media_contents/212",
+        "dir": 341.12,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2495,
+          30.028684
+        ]
+      },
+      "properties": {
+        "title": "Ibn Tulun Mosque",
+        "description": "<h3>Ibn Tulun Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Cairo</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Egypt</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>876</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>263</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/1522' title='More Info' target='_blank'>More Info</a>",
+        "city": "Cairo",
+        "country": "Egypt",
+        "ageGroup": "Abbasid",
+        "yearCE": "876",
+        "yearAH": "263",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/1522",
+        "dir": 145.4,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.18928,
+          38.061951
+        ]
+      },
+      "properties": {
+        "title": "Ansaq Friday Mosque",
+        "description": "<h3>Ansaq Friday Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Asnaq</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/5436' title='More Info' target='_blank'>More Info</a>",
+        "city": "Asnaq",
+        "country": "Iran",
+        "ageGroup": "Abbasid",
+        "yearCE": "800-899 CE",
+        "yearAH": "800-899 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/5436",
+        "dir": 207.11,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.581417,
+          31.764283
+        ]
+      },
+      "properties": {
+        "title": "Masjid Fahraj",
+        "description": "<h3>Masjid Fahraj</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Fahraj</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Iran</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>9th Century</td></tr></table><a href='http://archnet.org/sites/3855' title='More Info' target='_blank'>More Info</a>",
+        "city": "Fahraj",
+        "country": "Iran",
+        "ageGroup": "Abbasid",
+        "yearCE": "800-899 CE",
+        "yearAH": "800-899 CE",
+        "rebuilt": "9th Century",
+        "moreInfo": "http://archnet.org/sites/3855",
+        "dir": 213.4,
+        "gibsonClassification": "Unknown"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.885285,
+          36.730042
+        ]
+      },
+      "properties": {
+        "title": "Nine Domed Mosque",
+        "description": "<h3>Nine Domed Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Balkh Province</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Afghanistan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>unknown</td></tr></table><a href='http://archnet.org/sites/3921' title='More Info' target='_blank'>More Info</a>",
+        "city": "Balkh Province",
+        "country": "Afghanistan",
+        "ageGroup": "Abbasid",
+        "yearCE": "800-899 CE",
+        "yearAH": "800-899 CE",
+        "rebuilt": "unknown",
+        "moreInfo": "http://archnet.org/sites/3921",
+        "dir": 241.23,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.130585,
+          17.005985
+        ]
+      },
+      "properties": {
+        "title": "Salalah Al-Balid Mosque",
+        "description": "<h3>Salalah Al-Balid Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Al-Balid Mosque</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Oman</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>800-899 CE</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table>",
+        "city": "Al-Balid Mosque",
+        "country": "Oman",
+        "ageGroup": "Abbasid",
+        "yearCE": "800-899 CE",
+        "yearAH": "800-899 CE",
+        "rebuilt": "never",
+        "moreInfo": "#",
+        "dir": 285.05,
+        "gibsonClassification": "Mecca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.193025,
+          34.344932
+        ]
+      },
+      "properties": {
+        "title": "Harat Great Mosque",
+        "description": "<h3>Harat Great Mosque</h3><table style='border-collapse:collapse;'><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>City</td><td>Harat</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Country</td><td>Afghanistan</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Age Group</td><td>Abbasid</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year CE</td><td>1200</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Year AH</td><td>596</td></tr><tr><td style='font-weight:bold;padding-right:8px;text-align:left;'>Rebuilt</td><td>never</td></tr></table><a href='http://archnet.org/sites/3931' title='More Info' target='_blank'>More Info</a>",
+        "city": "Harat",
+        "country": "Afghanistan",
+        "ageGroup": "Abbasid",
+        "yearCE": "1200",
+        "yearAH": "596",
+        "rebuilt": "never",
+        "moreInfo": "http://archnet.org/sites/3931",
+        "dir": 271.85,
+        "gibsonClassification": "Jerusalem"
+      }
+    }
+  ]
+}
