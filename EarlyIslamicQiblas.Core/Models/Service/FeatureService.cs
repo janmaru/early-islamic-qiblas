@@ -1,4 +1,7 @@
-﻿using EarlyIslamicQiblas.Models.Domain;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using EarlyIslamicQiblas.Models.Domain;
 using EarlyIslamicQiblas.Models.Extensions;
 
 namespace EarlyIslamicQiblas.Models.Service;
@@ -23,7 +26,7 @@ public class FeatureService : IFeatureService
                 Geometry = new Geometry()
                 {
                     Type = "Point",
-                    Coordinates = [x.Lon, x.Lat]
+                    Coordinates = new List<double> { x.Lon, x.Lat }
                 },
                 Properties = new Properties()
                 {

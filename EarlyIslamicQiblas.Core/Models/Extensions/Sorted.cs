@@ -1,4 +1,4 @@
-﻿namespace EarlyIslamicQiblas.Models.Extensions;
+namespace EarlyIslamicQiblas.Models.Extensions;
 
 public class Sorted
 {

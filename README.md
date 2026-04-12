@@ -1,76 +1,233 @@
 # Early Islamic Qiblas
 
-A web application for visualizing early Islamic qibla (prayer direction) data with interactive maps and tabular views.
+A web application for visualizing early Islamic qibla (prayer direction) data with interactive maps and tabular views. Built with ASP.NET Core (.NET 10.0) backend and React 16.x frontend.
 
-## Prerequisites
+## Quick Start
 
-- **Node.js and npm/Yarn** - For running the React frontend
-- **.NET 9.0 SDK** - For running the ASP.NET Core backend
-- **Mapbox Account** - For map visualization
+### Prerequisites
 
-## Getting Started
+- **Node.js & npm** — For React frontend
+- **.NET 10.0 SDK** — For ASP.NET Core backend  
+- **Mapbox Account** — For map rendering (token required)
 
-1. **Mapbox Setup**
-   - Get a Mapbox access token from [https://account.mapbox.com/](https://account.mapbox.com/)
-   - Create a `.env` file in the `ClientApp` folder:
-   ```shell
-   REACT_APP_MAPBOX_ACCESS_TOKEN = <your_key>
-   REACT_APP_MAPBOX_STYLE = <your_style>
+### Installation & Running
+
+1. **Configure Mapbox**
+   ```bash
+   # Create ClientApp/.env with your Mapbox token
+   REACT_APP_MAPBOX_ACCESS_TOKEN=pk_your_token_here
+   REACT_APP_MAPBOX_STYLE=mapbox://styles/mapbox/streets-v12
    ```
 
-2. **Installation**
+2. **Install & Run**
    ```bash
-   # Install backend dependencies
    dotnet restore
-   
-   # Install frontend dependencies
-   cd ClientApp
-   npm install
-   ```
-
-3. **Running the Application**
-   ```bash
-   # From the root directory
+   cd ClientApp && npm install && cd ..
    dotnet run
    ```
 
-## Technology Stack
+   - Backend: `https://localhost:5001`
+   - Frontend: `http://localhost:3000` (development only)
 
-### Backend - ASP.NET Core (.NET 9.0)
-- **Framework**: ASP.NET Core MVC with SPA Services
-- **Database**: Entity Framework Core with In-Memory provider
-- **Data**: JSON files in `/Data` folder
-- **Controllers**: MosqueController (tabular data), MarkerController (geo markers)
-- **Architecture**: Repository pattern with dependency injection
+3. **Production Build**
+   ```bash
+   # Build React bundle
+   cd ClientApp && npm run build && cd ..
+   
+   # Run ASP.NET Core (serves ClientApp/build)
+   dotnet run --configuration Release
+   ```
 
-### Frontend - React
-- **React**: ^16.8.6
-- **Mapping**: Mapbox GL JS ^2.6.1
-- **UI Components**: Bootstrap 4, Reactstrap
-- **Data Tables**: React Table ^6.10.0
-- **Routing**: React Router DOM ^4.3.1
+## Architecture
+
+**Two-project solution:**
+
+| Project | Target | Purpose |
+|---------|--------|---------|
+| `EarlyIslamicQiblas.Core` | netstandard2.1 | Domain models, repository interface, services, geographic extensions |
+| `early-islamic-qiblas` | net10.0 | ASP.NET Core web host, controllers, EF Core InMemory DB, React SPA |
+
+**Key Features:**
+
+- **No external database** — Loads all data from `Data/mosques` JSON at startup (InMemory EF Core)
+- **No AutoMapper** — Manual mapping in `FeatureService` (minimal overhead)
+- **Portable Core** — netstandard2.1 allows framework upgrades without breaking domain layer
+- **GeoJSON API** — REST endpoints return standard GeoJSON for map integration
+- **Geographic Math** — 3D centroid calculation for point cloud analysis
+
+## API Endpoints
+
+All endpoints are `GET` (read-only, immutable dataset):
+
+| Endpoint | Purpose |
+|----------|---------|
+| `/api/v1/mosque/list` | All mosques |
+| `/api/v1/mosque/pagedlist?page=N&pageSize=N&sorted=JSON` | Paginated & sortable |
+| `/api/v1/mosque/{name}` | Single mosque by name |
+| `/api/v1/marker/list` | GeoJSON FeatureCollection (all mosques for map) |
+| `/api/v1/marker/centroid` | Geographic centroid of all locations |
+| `/api/v1/marker/random` | Random mosque coordinates |
+
+See **[Technical Analysis](docs/technical-analysis.md#api-reference)** for full API reference and examples.
 
 ## Project Structure
 
 ```
-├── ClientApp/              # React frontend
+├── EarlyIslamicQiblas.Core/           # Core library (netstandard2.1)
+│   └── Models/
+│       ├── Domain/                    # Mosque, MapBox entities, IMosqueRepository
+│       ├── Service/                   # IFeatureService, FeatureService
+│       ├── Extensions/                # GeoExtensions, CustomExtension
+│       └── Configuration/             # StringConverter
+├── early-islamic-qiblas/              # Web project (net10.0)
+│   ├── Controllers/                   # MosqueController, MarkerController
+│   ├── Models/
+│   │   ├── Domain/                    # MosqueRepository implementation
+│   │   ├── Infrastructure/            # DataLoader, MosqueDbContext, DI
+│   │   └── Configuration/
+│   ├── Data/                          # mosques JSON file
+│   └── Program.cs                     # App host
+├── ClientApp/                         # React 16.x SPA
 │   ├── src/
-│   │   ├── components/     # React components
-│   │   ├── assets/         # CSS and static assets
-│   │   └── helpers/        # Utility functions
-├── Controllers/            # ASP.NET Core controllers
-├── Models/                 # Domain models and services
-├── Data/                   # JSON data files
-└── Properties/             # Launch settings
+│   │   ├── components/
+│   │   ├── assets/
+│   │   └── helpers/
+│   └── .env                           # Mapbox credentials
+└── docs/                              # Documentation
+    ├── technical-analysis.md          # Architecture, API, config, deployment
+    └── functional-analysis.md         # Domain concepts, business rules, data semantics
 ```
+
+## Documentation
+
+- **[Technical Analysis](docs/technical-analysis.md)** — Architecture, system components, data flows, API reference, configuration, deployment notes.
+- **[Functional Analysis](docs/functional-analysis.md)** — Domain concepts (Mosque, Qibla, Gibson Classification), business rules, GeoJSON mapping, data format examples.
+
+## Technology Stack
+
+### Backend
+- **ASP.NET Core** net10.0
+- **Entity Framework Core** — InMemory database
+- **System.Text.Json** — JSON serialization (no external dependencies)
+- **CORS** — Enabled for all origins (development)
+
+### Frontend
+- **React** 16.x
+- **Mapbox GL JS** 2.6.1+
+- **React Table** 6.10.0+ — Paginated data grid
+- **Bootstrap 4 + Reactstrap** — UI components
+- **React Router** — Client-side navigation
 
 ## Features
 
-- Interactive map visualization of mosque locations
-- Tabular data view with pagination
-- Responsive design
-- CORS-enabled API
-- In-memory data persistence 
+- ✓ Interactive map with mosque location markers
+- ✓ Paginated & sortable data table
+- ✓ Geographic centroid calculation (3D vector math)
+- ✓ Responsive design (mobile-friendly)
+- ✓ GeoJSON export (compatible with ArcGIS, QGIS)
+- ✓ Historical timeline (Muhammad through Late Islamic periods)
+- ✓ External reference links (ArchNet, academic sources)
+
+## Data Model
+
+Each mosque record contains:
+
+| Field | Type | Example |
+|-------|------|---------|
+| `mosqueName` | string | "Quba Mosque" |
+| `city` | string | "Medina" |
+| `country` | string | "Saudi Arabia" |
+| `yearCE` | string | "622" |
+| `yearAH` | string | "1" |
+| `ageGroup` | string | "Muhammad" |
+| `lat`, `lon` | double | 24.439619, 39.617228 |
+| `dir` | double? | 328 (qibla angle in degrees) |
+| `gibsonClassification` | string | "Unknown", "Type A", etc. |
+| `rebuilt` | string? | "435 AH" |
+| `moreInfo` | string? | "http://archnet.org/sites/548" |
+
+See **[Functional Analysis](docs/functional-analysis.md)** for complete domain documentation.
+
+## Development
+
+### Backend
+```bash
+dotnet run                          # Debug mode
+dotnet run --configuration Release  # Optimized
+```
+
+### Frontend (React dev server)
+```bash
+cd ClientApp
+npm start
+```
+
+Proxies API calls to backend. Hot reload on file changes.
+
+### Adding New Endpoints
+
+1. Create method in `MosqueController` or `MarkerController`
+2. Decorate with `[HttpGet]` and `[EnableCors("qiblas")]`
+3. Inject `IMosqueRepository` or `IFeatureService` via constructor
+4. Return result (JSON serialized automatically)
+
+Example:
+```csharp
+[HttpGet("[action]")]
+[EnableCors("qiblas")]
+public async Task<IEnumerable<string>> GetCities()
+{
+    var mosques = await repoMosque.Get();
+    return mosques.Select(m => m.City).Distinct();
+}
+```
+
+## Deployment
+
+### Docker
+
+Multi-stage build serving React + ASP.NET Core from single container:
+
+```bash
+docker build -t early-islamic-qiblas .
+docker run -p 8080:8080 early-islamic-qiblas
+```
+
+See [Technical Analysis](docs/technical-analysis.md#deployment--infrastructure) for Dockerfile template.
+
+### Environment Variables (Production)
+
+| Variable | Example |
+|----------|---------|
+| `ASPNETCORE_URLS` | `http://+:80` |
+| `ASPNETCORE_ENVIRONMENT` | `Production` |
+
+## Performance
+
+- **In-Memory Database** — Entire dataset (~500 mosques) loaded at startup for instant queries
+- **Geographic Math** — Centroid calculation runs in O(n) with 3D vector operations
+- **Pagination** — Client-side (server returns full dataset); optimize with DB-layer pagination for scale
+
+For large datasets (>1M records), replace `UseInMemoryDatabase()` with SQL Server or PostgreSQL.
+
+## CORS Policy
+
+**Current (Development):** Allows all origins, headers, methods.
+
+**For Production:** Restrict to specific domain in `NativeInjectorBootStrapper.cs`:
+```csharp
+o.WithOrigins("https://yourdomain.com")
+ .AllowAnyHeader()
+ .AllowAnyMethod();
+```
+
+## License
+
+See LICENSE file.
+
+## Contact & Attribution
+
+Built with historical mosque data from academic sources (e.g., ArchNet, Creswell, al-Tabari).
 
 ![Qiblas](qiblas2.png)
 ![Qiblas](qiblas.PNG)

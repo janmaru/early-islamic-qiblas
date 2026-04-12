@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -21,7 +21,7 @@ public static class GeoExtension
 
     public static List<double> ToWGS84(this (double, double, double) xyz)
     {
-        List<double> geoCoordinates = new List<double>();
+        List<double> geoCoordinates = [];
         var x = xyz.Item1;
         var y = xyz.Item2;
         var z = xyz.Item3;
@@ -35,7 +35,6 @@ public static class GeoExtension
         return geoCoordinates;
     }
 
-
     public static List<double> Centroid(this IEnumerable<List<double>> points)
     {
         var xs = points.Select(x => x.ToCartesian().Item1).Sum() / Convert.ToDouble(points.Count());
@@ -43,4 +42,4 @@ public static class GeoExtension
         var zs = points.Select(x => x.ToCartesian().Item3).Sum() / Convert.ToDouble(points.Count());
         return (xs, ys, zs).ToWGS84();
     }
-}
+} 

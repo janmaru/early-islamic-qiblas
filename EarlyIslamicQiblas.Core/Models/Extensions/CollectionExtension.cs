@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EarlyIslamicQiblas.Models.Extensions; 
+namespace EarlyIslamicQiblas.Models.Extensions;
 
 public static class EnumerableHelper<E>
 {
@@ -37,4 +37,4 @@ public static class EnumerableExtensions
     {
         return EnumerableHelper<T>.Random(input);
     }
-}
+} 

@@ -1,4 +1,5 @@
 using EarlyIslamicQiblas.Models.Configuration;
+using Scalar.AspNetCore;
 using EarlyIslamicQiblas.Models.Infrastructure.Persistence;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,12 @@ var app = builder.Build();
  
 app.UseRouting();
 app.UseHttpsRedirection();
+
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+    app.MapScalarApiReference();
+}
 app.UseStaticFiles();
 app.UseCookiePolicy();
 app.UseCors("qiblas");

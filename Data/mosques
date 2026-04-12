@@ -39,7 +39,7 @@
     "Lat": 24.484089,
     "Lon": 39.578658,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/580"
   },
   {
     "GibsonClassification": "Unknown",
@@ -165,7 +165,7 @@
     "Lat": 21.486227,
     "Lon": 39.187469,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/2268"
   },
   {
     "GibsonClassification": "Unknown",
@@ -179,7 +179,7 @@
     "Lat": 34.885283,
     "Lon": 33.610306,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/9150"
   },
   {
     "GibsonClassification": "Unknown",
@@ -193,7 +193,7 @@
     "Lat": 34.749392,
     "Lon": 5.897497,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/17008"
   },
   {
     "GibsonClassification": "Unknown",
@@ -375,7 +375,7 @@
     "Lat": 32.608469,
     "Lon": 37.962325,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/5560"
   },
   {
     "GibsonClassification": "Petra",
@@ -459,7 +459,7 @@
     "Lat": 33.511825,
     "Lon": 36.306588,
     "Dir": 177.21,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/31"
   },
   {
     "GibsonClassification": "Between",
@@ -473,7 +473,7 @@
     "Lat": 31.728982,
     "Lon": 36.462795,
     "Dir": 175.01,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/3544"
   },
   {
     "GibsonClassification": "Between",
@@ -627,7 +627,7 @@
     "Lat": 33.330967,
     "Lon": 44.416165,
     "Dir": 0,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/4274"
   },
   {
     "GibsonClassification": "Unknown",
@@ -781,7 +781,7 @@
     "Lat": 31.801758,
     "Lon": 36.58727,
     "Dir": 194.49,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/4772"
   },
   {
     "GibsonClassification": "Jerusalem",
@@ -795,7 +795,7 @@
     "Lat": 31.325786,
     "Lon": 36.571288,
     "Dir": 292.02,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/4139"
   },
   {
     "GibsonClassification": "Between",
@@ -809,7 +809,7 @@
     "Lat": 36.864805,
     "Lon": 39.031172,
     "Dir": 191.74,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/1958"
   },
   {
     "GibsonClassification": "Unknown",
@@ -851,7 +851,7 @@
     "Lat": 32.437419,
     "Lon": 43.601702,
     "Dir": 198.24,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/3827"
   },
   {
     "GibsonClassification": "Parallel",
@@ -865,7 +865,7 @@
     "Lat": 35.827625,
     "Lon": 10.638728,
     "Dir": 182.59,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/3762"
   },
   {
     "GibsonClassification": "Parallel",
@@ -963,7 +963,7 @@
     "Lat": 31.880297,
     "Lon": 36.827551,
     "Dir": 184.81,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/4231"
   },
   {
     "GibsonClassification": "Mecca",
@@ -1215,7 +1215,7 @@
     "Lat": 14.195921,
     "Lon": 43.312618,
     "Dir": 348.97,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/3812"
   },
   {
     "GibsonClassification": "Unknown",
@@ -1229,7 +1229,7 @@
     "Lat": 32.092925,
     "Lon": 36.327991,
     "Dir": 142.72,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/2851"
   },
   {
     "GibsonClassification": "Mecca",
@@ -1243,7 +1243,7 @@
     "Lat": 32.092703,
     "Lon": 36.328439,
     "Dir": 163.55,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/2851"
   },
   {
     "GibsonClassification": "Parallel",
@@ -1411,6 +1411,6 @@
     "Lat": 34.344932,
     "Lon": 62.193025,
     "Dir": 271.85,
-    "MoreInfo": "#"
+    "MoreInfo": "http://archnet.org/sites/3931"
   }
 ]

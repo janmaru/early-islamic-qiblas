@@ -1,4 +1,4 @@
-﻿using EarlyIslamicQiblas.Models.Domain;
+using EarlyIslamicQiblas.Models.Domain;
 using EarlyIslamicQiblas.Models.Infrastructure;
 using EarlyIslamicQiblas.Models.Infrastructure.Persistence;
 using EarlyIslamicQiblas.Models.Service;
@@ -24,7 +24,7 @@ public class NativeInjectorBootStrapper
         services.AddSpaStaticFiles(configuration =>
         {
             configuration.RootPath = "ClientApp/build";
-        }); 
+        });
 
         //get the HTTP context in any class that is managed by the ASP.NET Core dependency injection system
         services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -36,7 +36,7 @@ public class NativeInjectorBootStrapper
                 o.AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod());
-        }); 
+        });
 
         services
             .AddScoped<IMosqueRepository, MosqueRepository>()
@@ -50,10 +50,11 @@ public class NativeInjectorBootStrapper
         services.AddScoped(ctx => new MosqueDbContext(dbConnectionOptions));
 
         var sp = services.BuildServiceProvider();
-        var dbContext = sp.GetService<MosqueDbContext>(); 
-        DataLoader seeding = new(dbContext!); 
+        var dbContext = sp.GetService<MosqueDbContext>();
+        DataLoader seeding = new(dbContext!);
 
-        services.AddLogging(); 
-        AutoMapperConfig.RegisterMappings();
+        services.AddLogging();
+
+        services.AddOpenApi();
     }
 }

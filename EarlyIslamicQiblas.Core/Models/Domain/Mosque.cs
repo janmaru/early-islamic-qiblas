@@ -1,6 +1,6 @@
-﻿namespace EarlyIslamicQiblas.Models.Domain;
+namespace EarlyIslamicQiblas.Models.Domain;
 
-public class Mosque 
+public class Mosque
 {
     public string? GibsonClassification { get; set; }
     public string? YearCE { get; set; }
