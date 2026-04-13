@@ -85,7 +85,7 @@ A standalone Python plugin for QGIS that allows for direct visualization and ana
 ### Installation
 
 1. Navigate to the `qgis_plugin_distr/` folder.
-2. Locate the latest ZIP file (e.g., `early_islamic_qiblas_v0.2.0.zip`).
+2. Locate the latest ZIP file (e.g., `early_islamic_qiblas_v0.2.4.zip`).
 3. In QGIS, go to **Plugins > Manage and Install Plugins**.
 4. Select **Install from ZIP** and choose the ZIP file.
 
@@ -123,7 +123,7 @@ A standalone Python plugin for QGIS that allows for direct visualization and ana
 │   └── .env                           # Mapbox credentials
 ├── qgis_plugin/                       # QGIS Plugin Source
 │   ├── assets/                        # Icons and local mosques.json
-│   ├── metadata.txt                   # Plugin metadata (v0.2.0)
+│   ├── metadata.txt                   # Plugin metadata (v0.2.4)
 │   └── early_islamic_qiblas_plugin.py # Python standalone logic
 ├── qgis_plugin_distr/                 # Distribution ZIP files
 └── docs/                              # Documentation

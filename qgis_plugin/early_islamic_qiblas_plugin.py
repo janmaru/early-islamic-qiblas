@@ -1,7 +1,6 @@
 import os
 import json
 import math
-import html
 from qgis.core import (QgsVectorLayer, QgsProject, QgsFeature, QgsGeometry,
     QgsPointXY, QgsField, QgsRasterMarkerSymbolLayer, QgsSymbol, QgsSingleSymbolRenderer,
     QgsPointClusterRenderer, QgsSimpleMarkerSymbolLayer, QgsFontMarkerSymbolLayer, QgsAction, Qgis,
@@ -63,10 +62,13 @@ class EarlyIslamicQiblasPlugin:
             
             pr.addAttributes([
                 QgsField("title", QVariant.String),
-                QgsField("description", QVariant.String),
+                QgsField("city", QVariant.String),
+                QgsField("country", QVariant.String),
+                QgsField("age_group", QVariant.String),
+                QgsField("year_ce", QVariant.String),
+                QgsField("year_ah", QVariant.String),
+                QgsField("rebuilt", QVariant.String),
                 QgsField("more_info_url", QVariant.String),
-                QgsField("dir", QVariant.Double),
-                QgsField("gibson_classification", QVariant.String)
             ])
             vlayer.updateFields()
 
@@ -75,32 +77,19 @@ class EarlyIslamicQiblasPlugin:
                 lon, lat = m.get('Lon'), m.get('Lat')
                 if lon is None or lat is None: continue
 
-                name = html.escape(str(m.get('MosqueName', 'Unknown')))
-                dir_val = m.get('Dir')
-                gibson = m.get('GibsonClassification', '')
-
-                # HTML Table for description (values HTML-escaped to prevent injection)
-                description = f"""
-                <table style='width:100%; border:0;'>
-                    <tr><td><b>City:</b></td><td>{html.escape(str(m.get('City', '')))}</td></tr>
-                    <tr><td><b>Country:</b></td><td>{html.escape(str(m.get('Country', '')))}</td></tr>
-                    <tr><td><b>Age Group:</b></td><td>{html.escape(str(m.get('AgeGroup', '')))}</td></tr>
-                    <tr><td><b>Year CE:</b></td><td>{html.escape(str(m.get('YearCE', '')))}</td></tr>
-                    <tr><td><b>Year AH:</b></td><td>{html.escape(str(m.get('YearAH', '')))}</td></tr>
-                    <tr><td><b>Rebuilt:</b></td><td>{html.escape(str(m.get('Rebuilt', '')))}</td></tr>
-                    <tr><td><b>Qibla Dir:</b></td><td>{html.escape(str(dir_val)) if dir_val is not None else ''}</td></tr>
-                    <tr><td><b>Gibson Class.:</b></td><td>{html.escape(str(gibson)) if gibson else ''}</td></tr>
-                </table>
-                """
-
                 q_feat = QgsFeature()
                 q_feat.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(float(lon), float(lat))))
+                # Attribute order must match addAttributes() above: title, city,
+                # country, age_group, year_ce, year_ah, rebuilt, more_info_url.
                 q_feat.setAttributes([
-                    name,
-                    description,
-                    str(m.get('MoreInfo', '')),
-                    float(dir_val) if dir_val is not None else None,
-                    str(gibson) if gibson else None
+                    str(m.get('MosqueName', 'Unknown')),
+                    str(m.get('City', '') or ''),
+                    str(m.get('Country', '') or ''),
+                    str(m.get('AgeGroup', '') or ''),
+                    str(m.get('YearCE', '') or ''),
+                    str(m.get('YearAH', '') or ''),
+                    str(m.get('Rebuilt', '') or ''),
+                    str(m.get('MoreInfo', '') or ''),
                 ])
                 qgs_features.append(q_feat)
             
@@ -149,7 +138,21 @@ class EarlyIslamicQiblasPlugin:
             renderer.setToleranceUnit(Qgis.RenderUnit.Pixels) 
             
             vlayer.setRenderer(renderer)
-            vlayer.setMapTipTemplate('<h3>[% "title" %]</h3>[% "description" %]')
+            # HTML presentation built in the map tip template so stored
+            # attributes stay clean. Single-quoted Python strings let us use
+            # QGIS double-quoted field references without escaping.
+            map_tip = (
+                '<h3>[% "title" %]</h3>'
+                '<table style="width:100%; border:0;">'
+                '<tr><td><b>City:</b></td><td>[% "city" %]</td></tr>'
+                '<tr><td><b>Country:</b></td><td>[% "country" %]</td></tr>'
+                '<tr><td><b>Age Group:</b></td><td>[% "age_group" %]</td></tr>'
+                '<tr><td><b>Year CE:</b></td><td>[% "year_ce" %]</td></tr>'
+                '<tr><td><b>Year AH:</b></td><td>[% "year_ah" %]</td></tr>'
+                '<tr><td><b>Rebuilt:</b></td><td>[% "rebuilt" %]</td></tr>'
+                '</table>'
+            )
+            vlayer.setMapTipTemplate(map_tip)
 
             # --- Actions ---
             # OpenUrl avoids code injection: the URL is opened directly by QGIS,

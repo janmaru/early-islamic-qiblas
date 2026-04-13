@@ -2,7 +2,7 @@
 name=Early Islamic Qiblas
 description=A plugin for visualizing early Islamic qibla data from the web application.
 category=Vector
-version=0.2.0
+version=0.2.4
 qgisMinimumVersion=3.30
 author=Gemini CLI
 email=info@example.com
