@@ -70,6 +70,34 @@ All endpoints are `GET` (read-only, immutable dataset):
 
 See **[Technical Analysis](docs/technical-analysis.md#api-reference)** for full API reference and examples.
 
+## QGIS Plugin
+
+A standalone Python plugin for QGIS that allows for direct visualization and analysis of the mosque dataset without requiring the .NET backend to be running.
+
+### Key Features
+
+- **Standalone Operation** — Uses local `mosques.json` (embedded in assets).
+- **Custom Symbology** — Automatically applies mosque-specific icons to the markers.
+- **Interactive Popups** — Uses QGIS Map Tips to display detailed mosque metadata on hover.
+- **3D Centroid Calculation** — Ported C# geographic math for local centroid analysis in QGIS.
+- **External Actions** — Right-click context menu actions to open ArchNet/academic links in the browser.
+
+### Installation
+
+1. Navigate to the `qgis_plugin_distr/` folder.
+2. Locate the latest ZIP file (e.g., `early_islamic_qiblas_v0.1.0.zip`).
+3. In QGIS, go to **Plugins > Manage and Install Plugins**.
+4. Select **Install from ZIP** and choose the ZIP file.
+
+### How to Use
+
+1. **Launch**: Click the mosque icon in the toolbar or go to **Plugins > Early Islamic Qiblas**.
+2. **Load Data**: Click **Load Mosques** to create a new vector layer with the full dataset.
+3. **View Info**: 
+   - Enable **View > Map Tips** to see mosque details when hovering over points.
+   - Right-click a mosque and select **Actions > Open More Info** to open external research links.
+4. **Analyze**: Click **Calculate Centroid** to generate a local point representing the 3D geographic center of all mosques.
+
 ## Project Structure
 
 ```
@@ -93,10 +121,16 @@ See **[Technical Analysis](docs/technical-analysis.md#api-reference)** for full 
 │   │   ├── assets/
 │   │   └── helpers/
 │   └── .env                           # Mapbox credentials
+├── qgis_plugin/                       # QGIS Plugin Source
+│   ├── assets/                        # Icons and local mosques.json
+│   ├── metadata.txt                   # Plugin metadata (v0.1.0)
+│   └── early_islamic_qiblas_plugin.py # Python standalone logic
+├── qgis_plugin_distr/                 # Distribution ZIP files
 └── docs/                              # Documentation
     ├── technical-analysis.md          # Architecture, API, config, deployment
     └── functional-analysis.md         # Domain concepts, business rules, data semantics
 ```
+
 
 ## Documentation
 
