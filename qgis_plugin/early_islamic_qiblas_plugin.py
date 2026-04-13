@@ -1,11 +1,15 @@
 import os
 import json
 import math
+import webbrowser
 from qgis.core import (QgsVectorLayer, QgsProject, QgsFeature, QgsGeometry, 
-    QgsPointXY, QgsField, QgsRasterMarkerSymbolLayer, QgsSymbol, QgsSingleSymbolRenderer)
-from qgis.PyQt.QtCore import Qt, QVariant
-from qgis.PyQt.QtGui import QIcon
-from qgis.PyQt.QtWidgets import QAction, QMessageBox, QDialog, QVBoxLayout, QPushButton, QLabel
+    QgsPointXY, QgsField, QgsRasterMarkerSymbolLayer, QgsSymbol, QgsSingleSymbolRenderer,
+    QgsPointClusterRenderer, QgsSimpleMarkerSymbolLayer, QgsFontMarkerSymbolLayer, QgsAction, Qgis, 
+    QgsProperty, QgsSymbolLayer)
+from qgis.PyQt.QtCore import Qt, QVariant, QPointF
+from qgis.PyQt.QtGui import QIcon, QColor, QFont
+from qgis.PyQt.QtWidgets import QAction as QgsQtAction
+from qgis.PyQt.QtWidgets import QMessageBox, QDialog, QVBoxLayout, QPushButton, QLabel
 
 class EarlyIslamicQiblasPlugin:
     def __init__(self, iface):
@@ -13,13 +17,13 @@ class EarlyIslamicQiblasPlugin:
         self.plugin_dir = os.path.dirname(__file__)
         self.action = None
         self.dialog = None
-        self.mosques_file = os.path.join(self.plugin_dir, "assets", "mosques.json")
-        self.icon_path = os.path.join(self.plugin_dir, "assets", "icon.png")
+        self.mosques_file = os.path.normpath(os.path.join(self.plugin_dir, "assets", "mosques.json"))
+        self.icon_path = os.path.normpath(os.path.join(self.plugin_dir, "assets", "icon.png"))
 
     def initGui(self):
-        self.action = QAction(QIcon(self.icon_path), "Early Islamic Qiblas", self.iface.mainWindow())
+        icon = QIcon(self.icon_path)
+        self.action = QgsQtAction(icon, "Early Islamic Qiblas", self.iface.mainWindow())
         self.action.triggered.connect(self.run)
-        
         self.iface.addPluginToMenu("&Early Islamic Qiblas", self.action)
         self.iface.addToolBarIcon(self.action)
 
@@ -36,157 +40,136 @@ class EarlyIslamicQiblasPlugin:
         dialog = QDialog(self.iface.mainWindow())
         dialog.setWindowTitle("Early Islamic Qiblas (Standalone)")
         layout = QVBoxLayout()
-
         status_label = QLabel(f"Data source: {os.path.basename(self.mosques_file)}")
         layout.addWidget(status_label)
-
         load_btn = QPushButton("Load Mosques")
         load_btn.clicked.connect(self.load_mosques)
         layout.addWidget(load_btn)
-
         centroid_btn = QPushButton("Calculate Centroid")
         centroid_btn.clicked.connect(self.calculate_centroid)
         layout.addWidget(centroid_btn)
-
         dialog.setLayout(layout)
         return dialog
 
     def load_data(self):
-        if not os.path.exists(self.mosques_file):
-            raise FileNotFoundError(f"Missing data file: {self.mosques_file}")
         with open(self.mosques_file, 'r', encoding='utf-8') as f:
             return json.load(f)
 
     def load_mosques(self):
         try:
             mosques = self.load_data()
+            vlayer = QgsVectorLayer("Point?crs=EPSG:4326", "Mosques (Standalone)", "memory")
+            pr = vlayer.dataProvider()
             
-            # Create GeoJSON FeatureCollection
-            features = []
+            pr.addAttributes([
+                QgsField("title", QVariant.String),
+                QgsField("description", QVariant.String),
+                QgsField("more_info_url", QVariant.String)
+            ])
+            vlayer.updateFields()
+            
+            qgs_features = []
             for m in mosques:
-                coords = [m.get('Lon', 0), m.get('Lat', 0)]
+                lon, lat = m.get('Lon'), m.get('Lat')
+                if lon is None or lat is None: continue
                 
-                description = f"<h3>{m.get('MosqueName', 'Unknown')}</h3>"
-                description += f"<b>City:</b> {m.get('City', '')}<br/>"
-                description += f"<b>Country:</b> {m.get('Country', '')}<br/>"
-                description += f"<b>Age Group:</b> {m.get('AgeGroup', '')}<br/>"
-                description += f"<b>Year CE:</b> {m.get('YearCE', '')}<br/>"
-                description += f"<b>Year AH:</b> {m.get('YearAH', '')}<br/>"
-                description += f"<b>Rebuilt:</b> {m.get('Rebuilt', '')}<br/>"
-
-                feature = {
-                    "type": "Feature",
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": coords
-                    },
-                    "properties": {
-                        "title": m.get('MosqueName', ''),
-                        "description": description,
-                        "more_info_url": m.get('MoreInfo', '')
-                    }
-                }
-                features.append(feature)
-
-            geojson = {
-                "type": "FeatureCollection",
-                "features": features
-            }
+                name = str(m.get('MosqueName', 'Unknown'))
+                
+                # HTML Table for description
+                description = f"""
+                <table style='width:100%; border:0;'>
+                    <tr><td><b>City:</b></td><td>{m.get('City', '')}</td></tr>
+                    <tr><td><b>Country:</b></td><td>{m.get('Country', '')}</td></tr>
+                    <tr><td><b>Age Group:</b></td><td>{m.get('AgeGroup', '')}</td></tr>
+                    <tr><td><b>Year CE:</b></td><td>{m.get('YearCE', '')}</td></tr>
+                    <tr><td><b>Year AH:</b></td><td>{m.get('YearAH', '')}</td></tr>
+                    <tr><td><b>Rebuilt:</b></td><td>{m.get('Rebuilt', '')}</td></tr>
+                </table>
+                """
+                
+                q_feat = QgsFeature()
+                q_feat.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(float(lon), float(lat))))
+                q_feat.setAttributes([
+                    name,
+                    description,
+                    str(m.get('MoreInfo', ''))
+                ])
+                qgs_features.append(q_feat)
             
-            vlayer = QgsVectorLayer(json.dumps(geojson), "Mosques (Standalone)", "ogr")
-            if not vlayer.isValid():
-                QMessageBox.critical(self.iface.mainWindow(), "Error", "Failed to load layer.")
-                return
+            pr.addFeatures(qgs_features)
+            vlayer.updateExtents()
 
-            # --- Set Custom Symbology (Mosque Icon) ---
+            # --- Symbology (Proportional Clustering) ---
+            base_symbol = QgsSymbol.defaultSymbol(vlayer.geometryType())
             if os.path.exists(self.icon_path):
                 symbol_layer = QgsRasterMarkerSymbolLayer(self.icon_path)
                 symbol_layer.setSize(6.0)
-                
-                symbol = QgsSymbol.defaultSymbol(vlayer.geometryType())
-                symbol.changeSymbolLayer(0, symbol_layer)
-                
-                renderer = QgsSingleSymbolRenderer(symbol)
-                vlayer.setRenderer(renderer)
+                base_symbol.changeSymbolLayer(0, symbol_layer)
 
-            # --- Configure Map Tips (Popups) ---
-            # Using a slightly different approach for links in Map Tips
-            map_tip_template = '[% "description" %]'
-            vlayer.setMapTipTemplate(map_tip_template)
-
-            # To make links clickable in Map Tips, we sometimes need to use a specific QGIS action
-            # or rely on the user clicking the feature with the Identify Tool.
-            # However, for a better UX, let's also add a "Feature Action" to open the URL.
+            cluster_symbol = QgsSymbol.defaultSymbol(vlayer.geometryType())
             
-            from qgis.core import QgsAction
-            action_manager = vlayer.actions()
-            action_manager.addAction(QgsAction.GenericPython, "Open More Info", 
+            # Circle layer
+            circle_layer = QgsSimpleMarkerSymbolLayer()
+            circle_layer.setShape(QgsSimpleMarkerSymbolLayer.Circle)
+            circle_layer.setStrokeColor(QColor("#FFFFFF"))
+            circle_layer.setStrokeWidth(0.5)
+            
+            size_expr = "CASE WHEN @cluster_size < 33 THEN 6 WHEN @cluster_size < 75 THEN 9 ELSE 12 END"
+            circle_layer.setDataDefinedProperty(QgsSymbolLayer.PropertySize, QgsProperty.fromExpression(size_expr))
+            color_expr = "CASE WHEN @cluster_size < 33 THEN '#3F5D5F' WHEN @cluster_size < 75 THEN '#3278AB' ELSE '#92AE8A' END"
+            circle_layer.setDataDefinedProperty(QgsSymbolLayer.PropertyFillColor, QgsProperty.fromExpression(color_expr))
+            cluster_symbol.changeSymbolLayer(0, circle_layer)
+            
+            # Count text layer (@)
+            font_layer = QgsFontMarkerSymbolLayer()
+            font_layer.setFontFamily("Arial")
+            font_layer.setCharacter("@")
+            font_layer.setColor(QColor("#FFFFFF"))
+            font_layer.setSize(3.0)
+            font_layer.setOffset(QPointF(0, 0))
+            cluster_symbol.appendSymbolLayer(font_layer)
+
+            renderer = QgsPointClusterRenderer()
+            renderer.setEmbeddedRenderer(QgsSingleSymbolRenderer(base_symbol))
+            renderer.setClusterSymbol(cluster_symbol)
+            renderer.setTolerance(25)
+            renderer.setToleranceUnit(Qgis.RenderUnit.Pixels) 
+            
+            vlayer.setRenderer(renderer)
+            vlayer.setMapTipTemplate('<h3>[% "title" %]</h3>[% "description" %]')
+
+            # --- Actions ---
+            vlayer.actions().addAction(QgsAction.GenericPython, "Open More Info", 
                 "import webbrowser\nwebbrowser.open('[% \"more_info_url\" %]')", True)
 
             QgsProject.instance().addMapLayer(vlayer)
-            
-            QMessageBox.information(self.iface.mainWindow(), "Success", 
-                f"Loaded {len(features)} mosques.\n\n"
-                "To see details:\n"
-                "1. Enable 'View > Map Tips'\n"
-                "2. To open 'More Info', right-click the mosque and select 'Actions > Open More Info'")
+            QMessageBox.information(self.iface.mainWindow(), "Success", "Mosques loaded.")
         except Exception as e:
             QMessageBox.critical(self.iface.mainWindow(), "Error", str(e))
 
     def calculate_centroid(self):
         try:
             mosques = self.load_data()
-            # 3D Geographic Centroid Logic
-            sum_x = 0.0
-            sum_y = 0.0
-            sum_z = 0.0
+            sum_x = sum_y = sum_z = 0.0
             count = 0
-
             for m in mosques:
-                lon_deg = m.get('Lon')
-                lat_deg = m.get('Lat')
-                if lon_deg is None or lat_deg is None:
-                    continue
-                
-                lon = math.radians(lon_deg)
-                lat = math.radians(lat_deg)
-                
-                x = math.cos(lat) * math.cos(lon)
-                y = math.cos(lat) * math.sin(lon)
-                z = math.sin(lat)
-                
-                sum_x += x
-                sum_y += y
-                sum_z += z
+                lon_deg, lat_deg = m.get('Lon'), m.get('Lat')
+                if lon_deg is None or lat_deg is None: continue
+                lon, lat = math.radians(float(lon_deg)), math.radians(float(lat_deg))
+                sum_x += math.cos(lat) * math.cos(lon)
+                sum_y += math.cos(lat) * math.sin(lon)
+                sum_z += math.sin(lat)
                 count += 1
-
-            if count == 0:
-                QMessageBox.warning(self.iface.mainWindow(), "Warning", "No mosque data found.")
-                return
-
-            avg_x = sum_x / count
-            avg_y = sum_y / count
-            avg_z = sum_z / count
-
-            lon_res = math.atan2(avg_y, avg_x)
-            hyp = math.sqrt(avg_x * avg_x + avg_y * avg_y)
-            lat_res = math.atan2(avg_z, hyp)
-
-            lon_deg_res = math.degrees(lon_res)
-            lat_deg_res = math.degrees(lat_res)
-
+            if count == 0: return
+            avg_x, avg_y, avg_z = sum_x/count, sum_y/count, sum_z/count
+            lon_res, lat_res = math.atan2(avg_y, avg_x), math.atan2(avg_z, math.sqrt(avg_x**2 + avg_y**2))
             vlayer = QgsVectorLayer("Point?crs=EPSG:4326", "Centroid (Standalone)", "memory")
             pr = vlayer.dataProvider()
             f = QgsFeature()
-            f.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(lon_deg_res, lat_deg_res)))
+            f.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(math.degrees(lon_res), math.degrees(lat_res))))
             pr.addFeatures([f])
-            vlayer.updateExtents()
             QgsProject.instance().addMapLayer(vlayer)
-            
             self.iface.mapCanvas().setExtent(vlayer.extent())
             self.iface.mapCanvas().refresh()
-            
-            QMessageBox.information(self.iface.mainWindow(), "Success", 
-                f"Centroid: Lon {lon_deg_res:.4f}, Lat {lat_deg_res:.4f}")
         except Exception as e:
             QMessageBox.critical(self.iface.mainWindow(), "Error", str(e))
