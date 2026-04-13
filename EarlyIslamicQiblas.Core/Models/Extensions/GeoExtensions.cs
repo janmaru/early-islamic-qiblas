@@ -9,9 +9,9 @@ public static class GeoExtension
     public readonly static double R = 39631906;
     public static (double, double, double) ToCartesian(this List<double> geoCoordinates)
     {
-        //[longitude, latitude]
-        var lon = geoCoordinates[0];
-        var lat = geoCoordinates[1];
+        //[longitude, latitude] in decimal degrees (WGS84)
+        var lon = geoCoordinates[0] * Math.PI / 180.0;
+        var lat = geoCoordinates[1] * Math.PI / 180.0;
         var x = R * Math.Cos(lat) * Math.Cos(lon);
         var y = R * Math.Cos(lat) * Math.Sin(lon);
         var z = R * Math.Sin(lat);
@@ -26,8 +26,8 @@ public static class GeoExtension
         var y = xyz.Item2;
         var z = xyz.Item3;
 
-        var lon = Math.Atan2(y, x);
-        var lat = Math.Asin(z / R);
+        var lon = Math.Atan2(y, x) * 180.0 / Math.PI;
+        var lat = Math.Asin(z / R) * 180.0 / Math.PI;
 
         geoCoordinates.Add(lon);
         geoCoordinates.Add(lat);

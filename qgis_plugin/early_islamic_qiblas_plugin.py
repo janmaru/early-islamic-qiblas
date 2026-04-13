@@ -1,10 +1,10 @@
 import os
 import json
 import math
-import webbrowser
-from qgis.core import (QgsVectorLayer, QgsProject, QgsFeature, QgsGeometry, 
+import html
+from qgis.core import (QgsVectorLayer, QgsProject, QgsFeature, QgsGeometry,
     QgsPointXY, QgsField, QgsRasterMarkerSymbolLayer, QgsSymbol, QgsSingleSymbolRenderer,
-    QgsPointClusterRenderer, QgsSimpleMarkerSymbolLayer, QgsFontMarkerSymbolLayer, QgsAction, Qgis, 
+    QgsPointClusterRenderer, QgsSimpleMarkerSymbolLayer, QgsFontMarkerSymbolLayer, QgsAction, Qgis,
     QgsProperty, QgsSymbolLayer)
 from qgis.PyQt.QtCore import Qt, QVariant, QPointF
 from qgis.PyQt.QtGui import QIcon, QColor, QFont
@@ -64,35 +64,43 @@ class EarlyIslamicQiblasPlugin:
             pr.addAttributes([
                 QgsField("title", QVariant.String),
                 QgsField("description", QVariant.String),
-                QgsField("more_info_url", QVariant.String)
+                QgsField("more_info_url", QVariant.String),
+                QgsField("dir", QVariant.Double),
+                QgsField("gibson_classification", QVariant.String)
             ])
             vlayer.updateFields()
-            
+
             qgs_features = []
             for m in mosques:
                 lon, lat = m.get('Lon'), m.get('Lat')
                 if lon is None or lat is None: continue
-                
-                name = str(m.get('MosqueName', 'Unknown'))
-                
-                # HTML Table for description
+
+                name = html.escape(str(m.get('MosqueName', 'Unknown')))
+                dir_val = m.get('Dir')
+                gibson = m.get('GibsonClassification', '')
+
+                # HTML Table for description (values HTML-escaped to prevent injection)
                 description = f"""
                 <table style='width:100%; border:0;'>
-                    <tr><td><b>City:</b></td><td>{m.get('City', '')}</td></tr>
-                    <tr><td><b>Country:</b></td><td>{m.get('Country', '')}</td></tr>
-                    <tr><td><b>Age Group:</b></td><td>{m.get('AgeGroup', '')}</td></tr>
-                    <tr><td><b>Year CE:</b></td><td>{m.get('YearCE', '')}</td></tr>
-                    <tr><td><b>Year AH:</b></td><td>{m.get('YearAH', '')}</td></tr>
-                    <tr><td><b>Rebuilt:</b></td><td>{m.get('Rebuilt', '')}</td></tr>
+                    <tr><td><b>City:</b></td><td>{html.escape(str(m.get('City', '')))}</td></tr>
+                    <tr><td><b>Country:</b></td><td>{html.escape(str(m.get('Country', '')))}</td></tr>
+                    <tr><td><b>Age Group:</b></td><td>{html.escape(str(m.get('AgeGroup', '')))}</td></tr>
+                    <tr><td><b>Year CE:</b></td><td>{html.escape(str(m.get('YearCE', '')))}</td></tr>
+                    <tr><td><b>Year AH:</b></td><td>{html.escape(str(m.get('YearAH', '')))}</td></tr>
+                    <tr><td><b>Rebuilt:</b></td><td>{html.escape(str(m.get('Rebuilt', '')))}</td></tr>
+                    <tr><td><b>Qibla Dir:</b></td><td>{html.escape(str(dir_val)) if dir_val is not None else ''}</td></tr>
+                    <tr><td><b>Gibson Class.:</b></td><td>{html.escape(str(gibson)) if gibson else ''}</td></tr>
                 </table>
                 """
-                
+
                 q_feat = QgsFeature()
                 q_feat.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(float(lon), float(lat))))
                 q_feat.setAttributes([
                     name,
                     description,
-                    str(m.get('MoreInfo', ''))
+                    str(m.get('MoreInfo', '')),
+                    float(dir_val) if dir_val is not None else None,
+                    str(gibson) if gibson else None
                 ])
                 qgs_features.append(q_feat)
             
@@ -120,10 +128,15 @@ class EarlyIslamicQiblasPlugin:
             circle_layer.setDataDefinedProperty(QgsSymbolLayer.PropertyFillColor, QgsProperty.fromExpression(color_expr))
             cluster_symbol.changeSymbolLayer(0, circle_layer)
             
-            # Count text layer (@)
+            # Count text layer: bind character to @cluster_size so the cluster
+            # renders the number of features, not a literal character.
             font_layer = QgsFontMarkerSymbolLayer()
             font_layer.setFontFamily("Arial")
-            font_layer.setCharacter("@")
+            font_layer.setCharacter("")
+            font_layer.setDataDefinedProperty(
+                QgsSymbolLayer.PropertyCharacter,
+                QgsProperty.fromExpression("@cluster_size")
+            )
             font_layer.setColor(QColor("#FFFFFF"))
             font_layer.setSize(3.0)
             font_layer.setOffset(QPointF(0, 0))
@@ -139,8 +152,10 @@ class EarlyIslamicQiblasPlugin:
             vlayer.setMapTipTemplate('<h3>[% "title" %]</h3>[% "description" %]')
 
             # --- Actions ---
-            vlayer.actions().addAction(QgsAction.GenericPython, "Open More Info", 
-                "import webbrowser\nwebbrowser.open('[% \"more_info_url\" %]')", True)
+            # OpenUrl avoids code injection: the URL is opened directly by QGIS,
+            # not interpolated into Python source executed at click time.
+            vlayer.actions().addAction(QgsAction.OpenUrl, "Open More Info",
+                '[% "more_info_url" %]', True)
 
             QgsProject.instance().addMapLayer(vlayer)
             QMessageBox.information(self.iface.mainWindow(), "Success", "Mosques loaded.")
